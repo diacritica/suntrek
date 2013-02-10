@@ -1,0 +1,53 @@
+:Product: 02101230three_day_forecast.txt
+:Issued: 2013 Feb 10 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+*EXPERIMENTAL PRODUCT*
+
+A. NOAA Geomagnetic Activity Observation and Forecast
+
+The greatest observed 3 hr Kp over the past 24 hours was 1 (below NOAA
+Scale levels).
+The greatest expected 3 hr Kp for Feb 10-Feb 12 2013 is 3 (below NOAA
+Scale levels).
+
+NOAA Kp index breakdown Feb 10-Feb 12 2013
+
+            Feb 10     Feb 11     Feb 12
+00-03UT        1          2          2     
+03-06UT        1          1          1     
+06-09UT        1          2          2     
+09-12UT        1          1          3     
+12-15UT        2          1          2     
+15-18UT        1          1          2     
+18-21UT        1          2          2     
+21-00UT        1          1          2     
+
+Rationale: Quiet levels (Kp 1-2) are expected on days 1-2 (10-11 Feb). 
+On day 3 (12 Feb), an increase to quiet to unsettled levels (Kp 1-3) is
+expected due to the passage of the 09 February CME.
+
+B. NOAA Solar Radiation Activity Observation and Forecast
+
+Solar radiation, as observed by NOAA GOES-13 over the past 24 hours, was
+below S-scale storm level thresholds.
+
+Solar Radiation Storm Forecast for Feb 10-Feb 12 2013
+
+              Feb 10  Feb 11  Feb 12
+S1 or greater    1%      1%      1%
+
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+
+C. NOAA Radio Blackout Activity and Forecast
+
+No radio blackouts were observed over the past 24 hours.
+
+Radio Blackout Forecast for Feb 10-Feb 12 2013
+
+              Feb 10        Feb 11        Feb 12
+R1-R2           10%           10%           10%
+R3 or greater    1%            1%            1%
+
+Rationale: A slight chance exists for R1-R2 (Minor-Moderate) radio
+blackouts for the forecast period (10-12 Feb).

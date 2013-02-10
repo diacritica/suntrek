@@ -27,7 +27,7 @@ Data shown
 
 * Chart depicting Solar Cycle Progression for the last 12 years (archive) + prediction for the next 5 years [http://www.swpc.noaa.gov/SolarCycle/]
 
-* List of recent alerts regarding solar ativity [http://www.swpc.noaa.gov/alerts/archive/current_month.html]
+* List of recent alerts regarding solar activity [http://www.swpc.noaa.gov/alerts/archive/current_month.html]
 
 * 3-day Forecast [http://www.swpc.noaa.gov/ftpmenu/forecasts/three_day.html]
 
