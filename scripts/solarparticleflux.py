@@ -101,7 +101,7 @@ def run():
         fdp10f.write(jsontext)
         fdp10f.close()
 
-        P100dict = {"label":"P>100MeV","legendEntry":True, "fitType": "spline",
+        P100dict = {"label":"P>100MeV","legendEntry":True, "fitType": "line",
                    "data" : {
                 "x" : particledatetimelist,
                 "y" : protonP100datalist,                

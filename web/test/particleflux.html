@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <title>Particle Flux - SUNTREK simple test page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    
+    <script src="external/jquery-1.8.0.min.js" type="text/javascript"></script>
+    <script src="external/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+    <script src="external/globalize.min.js" type="text/javascript"></script>
+    <script src="external/raphael-min.js" type="text/javascript"></script>
+    <script src="wijmo/jquery.wijmo.raphael.js" type="text/javascript"></script>
+    <script src="wijmo/jquery.wijmo.wijchartcore.js" type="text/javascript"></script>
+    <script src="wijmo/jquery.wijmo.wijlinechart.js" type="text/javascript"></script>
+
+
+    
+
+    <script id="scriptInit" type="text/javascript">
+        $(document).ready(function () {
+            $("#wijdatelinechart").wijlinechart({
+
+                type: "line",
+                animation: { enabled: false },
+
+                showChartLabels: false,
+
+                legend: { compass: "south", orientation: "horizontal", textStyle: { "font-size": "11px", fill: "#3A3A3A"} },
+
+                hint: {
+
+                    content: function () {
+
+                        return this.y + ' MeV';
+
+                    },
+
+                    offsetY: -10,
+
+                    style: { fill: "#fff" },
+
+                    contentStyle: { "font-size": "11px", fill: "#000" },
+
+                    titleStyle: { "font-size": "11px" }, showCallout: true
+
+                },
+
+                seriesList: [
+
+	{
+    "data": {
+        "x": [
+            "2013-02-16T15:30:00",
+            "2013-02-16T15:35:00",
+            "2013-02-16T15:40:00",
+            "2013-02-16T15:45:00",
+            "2013-02-16T15:50:00",
+            "2013-02-16T15:55:00",
+            "2013-02-16T16:00:00",
+            "2013-02-16T16:05:00",
+            "2013-02-16T16:10:00",
+            "2013-02-16T16:15:00",
+            "2013-02-16T16:20:00",
+            "2013-02-16T16:25:00",
+            "2013-02-16T16:30:00",
+            "2013-02-16T16:35:00",
+            "2013-02-16T16:40:00",
+            "2013-02-16T16:45:00",
+            "2013-02-16T16:50:00",
+            "2013-02-16T16:55:00",
+            "2013-02-16T17:00:00",
+            "2013-02-16T17:05:00",
+            "2013-02-16T17:10:00",
+            "2013-02-16T17:15:00",
+            "2013-02-16T17:20:00",
+            "2013-02-16T17:25:00"
+        ],
+        "y": [
+            0.094,
+            0.141,
+            0.148,
+            0.111,
+            0.126,
+            0.139,
+            0.096,
+            0.167,
+            0.096,
+            0.0905,
+            0.152,
+            0.0993,
+            0.0905,
+            0.129,
+            0.0892,
+            0.0884,
+            0.116,
+            0.138,
+            0.0884,
+            0.0981,
+            0.0884,
+            0.104,
+            0.0905,
+            0.117
+        ]
+    },
+    "fitType": "spline",
+    "label": "P>10MeV",
+    "legendEntry": true,
+    "markers": {
+        "type": "circle",
+        "visible": false
+    }
+}
+,
+
+	{
+    "data": {
+        "x": [
+            "2013-02-16T15:30:00",
+            "2013-02-16T15:35:00",
+            "2013-02-16T15:40:00",
+            "2013-02-16T15:45:00",
+            "2013-02-16T15:50:00",
+            "2013-02-16T15:55:00",
+            "2013-02-16T16:00:00",
+            "2013-02-16T16:05:00",
+            "2013-02-16T16:10:00",
+            "2013-02-16T16:15:00",
+            "2013-02-16T16:20:00",
+            "2013-02-16T16:25:00",
+            "2013-02-16T16:30:00",
+            "2013-02-16T16:35:00",
+            "2013-02-16T16:40:00",
+            "2013-02-16T16:45:00",
+            "2013-02-16T16:50:00",
+            "2013-02-16T16:55:00",
+            "2013-02-16T17:00:00",
+            "2013-02-16T17:05:00",
+            "2013-02-16T17:10:00",
+            "2013-02-16T17:15:00",
+            "2013-02-16T17:20:00",
+            "2013-02-16T17:25:00"
+        ],
+        "y": [
+            0.0276,
+            0.0747,
+            0.0242,
+            0.045,
+            0.022,
+            0.045,
+            0.022,
+            0.0363,
+            0.022,
+            0.022,
+            0.022,
+            0.022,
+            0.022,
+            0.022,
+            0.022,
+            0.022,
+            0.0499,
+            0.0697,
+            0.022,
+            0.022,
+            0.022,
+            0.0242,
+            0.022,
+            0.022
+        ]
+    },
+    "fitType": "line",
+    "label": "P>100MeV",
+    "legendEntry": true,
+    "markers": {
+        "type": "circle",
+        "visible": false
+    }
+}
+
+,
+
+
+
+				],
+
+                axis: {
+
+                    y: {
+
+                        labels: {
+
+                            style: {
+
+                                fill: "#3A3A3A",
+
+                                "font-size": "11px",
+
+                                "font-family": "fixed",
+
+                                "font-weight": "normal"
+
+                            }
+
+                        },
+
+                        gridMajor: { visible: true,
+
+                            style: { stroke: "#efefef" }
+
+                        }
+
+                    },
+
+                    x: {
+
+                        labels: {
+
+                            style: {
+
+                                fill: "#3A3A3A",
+
+                                "font-size": "11px",
+
+                                "font-family": "Tahoma",
+
+                                "font-weight": "normal"
+
+
+
+                            }
+
+                        },
+                        annoFormatString: "MM/yyyy",
+
+                        tickMajor: { position: "outside", style: { stroke: "#999999"} },
+
+                        gridMajor: { visible: true,
+
+                            style: { stroke: "#efefef", "stroke-dasharray": "none" }
+
+                        }
+
+                    }
+
+                },
+	        seriesStyles: [{
+                        stroke: "#761CEC", "stroke-width": 2, opacity: 1
+                    }, {
+                        stroke: "#CC0000", "stroke-width": 2, opacity: 1
+                    }, {
+                        stroke: "#fe0fe0", "stroke-width": 2, opacity: 1
+                }],
+
+               
+
+            });
+
+            var resizeTimer = null;
+
+
+
+            $(window).resize(function () {
+
+                window.clearTimeout(resizeTimer);
+
+                resizeTimer = window.setTimeout(function () {
+
+                    var jqLine = $("#wijdatelinechart"),
+
+						width = jqLine.width(),
+
+						height = jqLine.height();
+
+
+
+                    if (!width || !height) {
+
+                        window.clearTimeout(resizeTimer);
+
+                        return;
+
+                    }
+
+
+
+                    jqLine.wijlinechart("redraw", width, height);
+
+                }, 250);
+
+            });
+
+
+        })
+    </script>
+
+
+
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="bootstrap/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="bootstrap/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="bootstrap/ico/apple-touch-icon-114-precomposed.png">
+     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="bootstrap/ico/apple-touch-icon-72-precomposed.png">
+     <link rel="apple-touch-icon-precomposed" href="bootstrap/ico/apple-touch-icon-57-precomposed.png">
+     <link rel="shortcut icon" href="bootstrap/ico/favicon.png">
+     
+  </head>
+
+  <body>
+
+    
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">SUNTREK</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="eitfilters.html">EIT Filters</a></li>
+              <li><a href="particleflux.html">Particle flux</a></li>
+              <li><a href="electronflux.html">Electron flux</a></li>
+              <li><a href="xrayflux.html">X-ray flux</a></li>
+              <li><a href="sunspots.html">Sunspots</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="container">
+      
+
+<div id="wijdatelinechart" style="width: 756px; height: 475px">
+
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap-transition.js"></script>
+    <script src="bootstrap/js/bootstrap-alert.js"></script>
+    <script src="bootstrap/js/bootstrap-modal.js"></script>
+    <script src="bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="bootstrap/js/bootstrap-tab.js"></script>
+    <script src="bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="bootstrap/js/bootstrap-popover.js"></script>
+    <script src="bootstrap/js/bootstrap-button.js"></script>
+    <script src="bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="bootstrap/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>

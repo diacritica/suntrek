@@ -10,8 +10,20 @@ Sinopsis
 
 The USS Enterprise NCC-1701-E arrives to a solar system that is governed by a star with suspicious behaviour. The crew has instructions to collect data for at least several days and send a report to Starfleet Command. What they don't know is that this star is an exact clone of Earth's Sun...
 
-Data shown
-----------
+How to test it (on Linux distributions)
+---------------------------------------
+
+* Be sure to have python2 installes, as well as python-requests and python-imaging.
+
+* In scripts folder execute run.sh. This script will fetch all data that is currently supported. It should take some minutes.
+
+* After a successful run.sh execution, run generate.py script in web/test/ folder. It should take a second.
+
+* Open index.html in web/test folder.
+
+
+Data shown (planned)
+--------------------
 
 * Animated gifs showing the Sun through filters LASCO/C2, EIT 304A, EIT 195A, EIT 171A and EIT 284A. [http://sohowww.nascom.nasa.gov/data/realtime/gif/]
 

@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 import requests
 
-from PIL import Image
+
 from StringIO import StringIO
 
 import settings
 
 basepath = "http://sohowww.nascom.nasa.gov/data/LATEST/"
-giffiles = ["current_c2small.gif", "current_eit_304small.gif", "current_eit_195small.gif", "current_eit_171small.gif", "current_eit_284small.gif"]
+giffiles = ["current_c2.gif", "current_eit_304.gif", "current_eit_195.gif", "current_eit_171.gif", "current_eit_284.gif"]
 
 def run():
 
@@ -20,8 +20,9 @@ def run():
         for giffilename in giffiles:
             r = requests.get(basepath + giffilename)
             print(giffilename + str(r.status_code))
-            i = Image.open(StringIO(r.content))
-            i.save("output/gifs/" + giffilename)
+            i = open("output/gifs/" + giffilename, "w")
+            i.write(r.content)
+            i.close()
             print(giffilename + " saved")
 
 if __name__ == "__main__":

@@ -15,6 +15,8 @@ basepath = "http://www.spaceweather.com/images%s/%s/"%(today.strftime("%Y"),toda
 imagefiles = ["hmi240.gif", "hmi4096_blank.jpg"]
 textfiles = ["sunspot_labels.txt"]
 
+size = 600,600
+
 def run():
 
     if settings.TEST == True:
@@ -29,10 +31,12 @@ def run():
             i.write(r.content)
             print(txtfilename + " saved")
 
+
         for imgfilename in imagefiles:
             r = requests.get(basepath + imgfilename)
             print(imgfilename + str(r.status_code))
             i = Image.open(StringIO(r.content))
+            i.thumbnail(size, Image.ANTIALIAS)
             i.save("output/gifs/" + imgfilename)
             print(imgfilename + " saved")
 
