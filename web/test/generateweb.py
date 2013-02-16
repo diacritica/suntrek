@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+import json
 from jinja2 import Environment, PackageLoader
 
 env = Environment(loader=PackageLoader('suntrek', 'jinjatemplates'))
@@ -64,3 +65,16 @@ result = sunspotstemplate.render(dataseries01=sunspotlabels)
 
 sunspotsfile.write(result)
 sunspotsfile.close()
+
+#Alerts
+alertstemplate = env.get_template('alerts.html')
+alertsfile = open("alerts.html","w")
+
+alertcontent = open("output/alerts.json","r")
+alertlist = json.load(alertcontent)
+
+
+result = alertstemplate.render(alertlist=alertlist)
+
+alertsfile.write(result)
+alertsfile.close()

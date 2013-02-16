@@ -1,0 +1,396 @@
+[
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 4",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Feb 16 1735 UTC",
+        "PAYLOAD": [
+            [
+                "Threshold Reached",
+                "2013 Feb 16 1730 UTC"
+            ],
+            [
+                "Synoptic Period",
+                "1500-1800 UTC"
+            ],
+            [
+                "Active Warning",
+                "Yes"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 65 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes such as Canada and Alaska."
+            ]
+        ],
+        "RAWPAYLOAD": "Threshold Reached: 2013 Feb 16 1730 UTC<br>Synoptic Period: 1500-1800 UTC<br>Active Warning: Yes<br>Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.<br>",
+        "SN": "1626",
+        "SWMC": "ALTK04"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 4 expected",
+        "ALERTTYPE": "WARNING",
+        "ISSUETIME": "2013 Feb 16 1713 UTC",
+        "PAYLOAD": [
+            [
+                "Valid From",
+                "2013 Feb 16 1711 UTC"
+            ],
+            [
+                "Valid To",
+                "2013 Feb 16 2359 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Onset"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 65 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes such as Canada and Alaska."
+            ]
+        ],
+        "RAWPAYLOAD": "Valid From: 2013 Feb 16 1711 UTC<br>Valid To: 2013 Feb 16 2359 UTC<br>Warning Condition: Onset<br>Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.<br>",
+        "SN": "2048",
+        "SWMC": "WARK04"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic Sudden Impulse",
+        "ALERTTYPE": "SUMMARY",
+        "ISSUETIME": "2013 Feb 16 1217 UTC",
+        "PAYLOAD": [
+            [
+                "Observed",
+                "2013 Feb 16 1210 UTC"
+            ],
+            [
+                "Deviation",
+                "10 nT"
+            ],
+            [
+                "Station",
+                "Boulder"
+            ]
+        ],
+        "RAWPAYLOAD": "Observed: 2013 Feb 16 1210 UTC<br>Deviation: 10 nT<br>Station: Boulder<br>",
+        "SN": "167",
+        "SWMC": "SUMSUD"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic Sudden Impulse expected",
+        "ALERTTYPE": "WARNING",
+        "ISSUETIME": "2013 Feb 16 1145 UTC",
+        "PAYLOAD": [
+            [
+                "Valid From",
+                "2013 Feb 16 1145 UTC"
+            ],
+            [
+                "Valid To",
+                "2013 Feb 16 1215 UTC"
+            ],
+            [
+                "IP Shock Passage Observed",
+                "2013 Feb 16 1058 UTC"
+            ]
+        ],
+        "RAWPAYLOAD": "Valid From: 2013 Feb 16 1145 UTC<br>Valid To: 2013 Feb 16 1215 UTC<br>IP Shock Passage Observed: 2013 Feb 16 1058 UTC<br>",
+        "SN": "125",
+        "SWMC": "WARSUD"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 4 expected",
+        "ALERTTYPE": "EXTENDED WARNING",
+        "ISSUETIME": "2013 Feb 14 1157 UTC",
+        "PAYLOAD": [
+            [
+                "Extension to Serial Number",
+                "2046"
+            ],
+            [
+                "Valid From",
+                "2013 Feb 13 2319 UTC"
+            ],
+            [
+                "Now Valid Until",
+                "2013 Feb 14 1800 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Persistence"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 65 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes such as Canada and Alaska."
+            ]
+        ],
+        "RAWPAYLOAD": "Extension to Serial Number: 2046<br>Valid From: 2013 Feb 13 2319 UTC<br>Now Valid Until: 2013 Feb 14 1800 UTC<br>Warning Condition: Persistence<br>Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.<br>",
+        "SN": "2047",
+        "SWMC": "WARK04"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 5 expected",
+        "ALERTTYPE": "CANCEL WARNING",
+        "ISSUETIME": "2013 Feb 14 0347 UTC",
+        "PAYLOAD": [
+            [
+                "Cancel Serial Number",
+                "821"
+            ],
+            [
+                "Original Issue Time",
+                "2013 Feb 13 2339 UTC"
+            ],
+            [
+                "</p><p>Comment",
+                "Conditions for this warning no longer exist."
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Cancel Serial Number: 821<br>Original Issue Time: 2013 Feb 13 2339 UTC<br></p><p>Comment: Conditions for this warning no longer exist.<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "822",
+        "SWMC": "WARK05"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 5 expected",
+        "ALERTTYPE": "WARNING",
+        "ISSUETIME": "2013 Feb 13 2339 UTC",
+        "PAYLOAD": [
+            [
+                "Valid From",
+                "2013 Feb 13 2338 UTC"
+            ],
+            [
+                "Valid To",
+                "2013 Feb 14 0600 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Onset"
+            ],
+            [
+                "NOAA Scale",
+                "G1 - Minor"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Valid From: 2013 Feb 13 2338 UTC<br>Valid To: 2013 Feb 14 0600 UTC<br>Warning Condition: Onset<br>NOAA Scale: G1 - Minor<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "821",
+        "SWMC": "WARK05"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 4",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Feb 13 2327 UTC",
+        "PAYLOAD": [
+            [
+                "Threshold Reached",
+                "2013 Feb 13 2325 UTC"
+            ],
+            [
+                "Synoptic Period",
+                "2100-2400 UTC"
+            ],
+            [
+                "Active Warning",
+                "Yes"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 65 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes such as Canada and Alaska."
+            ]
+        ],
+        "RAWPAYLOAD": "Threshold Reached: 2013 Feb 13 2325 UTC<br>Synoptic Period: 2100-2400 UTC<br>Active Warning: Yes<br>Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.<br>",
+        "SN": "1625",
+        "SWMC": "ALTK04"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 4 expected",
+        "ALERTTYPE": "WARNING",
+        "ISSUETIME": "2013 Feb 13 2320 UTC",
+        "PAYLOAD": [
+            [
+                "Valid From",
+                "2013 Feb 13 2319 UTC"
+            ],
+            [
+                "Valid To",
+                "2013 Feb 14 1200 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Onset"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 65 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes such as Canada and Alaska."
+            ]
+        ],
+        "RAWPAYLOAD": "Valid From: 2013 Feb 13 2319 UTC<br>Valid To: 2013 Feb 14 1200 UTC<br>Warning Condition: Onset<br>Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.<br>",
+        "SN": "2046",
+        "SWMC": "WARK04"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic Storm Category G1 Predicted",
+        "ALERTTYPE": "WATCH",
+        "ISSUETIME": "2013 Feb 07 1721 UTC",
+        "PAYLOAD": [
+            [
+                "Highest Storm Level Predicted by Day",
+                ""
+            ],
+            [
+                "Highest Storm Level Predicted by Day",
+                ""
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Highest Storm Level Predicted by Day:<br>Feb 08:  G1 (Minor)   Feb 09:  None (Below G1)   Feb 10:  None (Below G1)<br>THIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "511",
+        "SWMC": "WATA20"
+    },
+    {
+        "ALERTMESSAGE": "Type IV Radio Emission",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Feb 06 0113 UTC",
+        "PAYLOAD": [
+            [
+                "Begin Time",
+                "2013 Feb 06 0017 UTC"
+            ],
+            [
+                "Description",
+                "Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms."
+            ]
+        ],
+        "RAWPAYLOAD": "Begin Time: 2013 Feb 06 0017 UTC<br>Description: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.<br>",
+        "SN": "401",
+        "SWMC": "ALTTP4"
+    },
+    {
+        "ALERTMESSAGE": "Type II Radio Emission",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Feb 06 0111 UTC",
+        "PAYLOAD": [
+            [
+                "Begin Time",
+                "2013 Feb 06 0013 UTC"
+            ],
+            [
+                "Estimated Velocity",
+                "548 km/s"
+            ],
+            [
+                "Description",
+                "Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+            ]
+        ],
+        "RAWPAYLOAD": "Begin Time: 2013 Feb 06 0013 UTC<br>Estimated Velocity: 548 km/s<br>Description: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.<br>",
+        "SN": "837",
+        "SWMC": "ALTTP2"
+    },
+    {
+        "ALERTMESSAGE": "Type II Radio Emission",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Feb 04 1710 UTC",
+        "PAYLOAD": [
+            [
+                "Begin Time",
+                "2013 Feb 04 1502 UTC"
+            ],
+            [
+                "Estimated Velocity",
+                "849 km/s"
+            ],
+            [
+                "Description",
+                "Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+            ]
+        ],
+        "RAWPAYLOAD": "Begin Time: 2013 Feb 04 1502 UTC<br>Estimated Velocity: 849 km/s<br>Description: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.<br>",
+        "SN": "836",
+        "SWMC": "ALTTP2"
+    }
+]

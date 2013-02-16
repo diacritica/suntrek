@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}EIT{% endblock %}
+
+{% block wijmojs %}
+    <script src="external/jquery-1.8.0.min.js" type="text/javascript"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="bs-docs-example">
+  <div class="accordion" id="accordion2">
+
+    {% for alert in alertlist %}
+    <div class="accordion-group">
+      <div class="accordion-heading">
+	{% if alert.ALERTTYPE == 'ALERT' %}
+	<span class="label label-important">ALERT</span>
+	
+	{% elif alert.ALERTTYPE == 'WARNING' %}
+	<span class="label label-warning">WARNING</span>
+
+	{% elif alert.ALERTTYPE == 'EXTENDED WARNING' %}
+	<span class="label label-warning">EXTENDED WARNING</span>
+
+	{% elif alert.ALERTTYPE == 'WATCH' %}
+	<span class="label label-warning">WATCH</span>
+
+	{% elif alert.ALERTTYPE == 'SUMMARY' %}
+	<span class="label label-info">SUMMARY</span>
+
+	{% elif alert.ALERTTYPE == 'CANCEL WARNING' %}
+	<span class="label label-success">CANCEL WARNING</span>
+
+	{% endif %}
+
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse{{alert.SN}}">
+          <strong>{{alert.ISSUETIME}}</strong> - {{alert.SWMC}}
+        </a>
+	</div>
+	</div>
+      <div id="collapse{{alert.SN}}" class="accordion-body collapse">
+        <div class="accordion-inner">
+	  {{alert.ALERTMESSAGE}}
+	  <br/>
+	  {{alert.RAWPAYLOAD}}
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+
+  </div>
+</div>
+
+
+
+
+{% endblock %}
