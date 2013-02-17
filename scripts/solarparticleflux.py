@@ -7,7 +7,8 @@ import json
 
 import settings
 
-urlwithfile = "http://www.swpc.noaa.gov/ftpdir/lists/particle/Gp_part_5m.txt"
+today = datetime.date.today()
+urlwithfile = "http://www.swpc.noaa.gov/ftpdir/lists/particle/%s_Gp_part_5m.txt"%(today.strftime("%Y%m%d"))
 
 """
 :Data_list: Gs_part_5m.txt
@@ -76,7 +77,11 @@ def run():
                                                          int(DA),int(HHMM[:2]), \
                                                          int(HHMM[2:])).isoformat()
 
-                particledatetimelist.append(particledatetime)
+                if HHMM[2:] == "00":
+                    particledatetimelist.append(particledatetime)
+                else:
+                    particledatetimelist.append(".")
+
 
                 protonP10datalist.append(float(P10))
                 protonP100datalist.append(float(P100))

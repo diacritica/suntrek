@@ -7,8 +7,9 @@ import json
 
 import settings
 
+today = datetime.date.today()
 #today = datetime.date.today() fixme with zfill
-urlwithfile = "http://www.swpc.noaa.gov/ftpdir/lists/xray/Gp_xr_5m.txt"
+urlwithfile = "http://www.swpc.noaa.gov/ftpdir/lists/xray/%s_Gp_xr_5m.txt"%(today.strftime("%Y%m%d"))
 
 """
 :Data_list: Gs_xr_5m.txt
@@ -67,7 +68,10 @@ def run():
                                                          int(DA),int(HHMM[:2]), \
                                                          int(HHMM[2:])).isoformat()
 
-                particledatetimelist.append(particledatetime)
+                if HHMM[2:] == "00":
+                    particledatetimelist.append(particledatetime)
+                else:
+                    particledatetimelist.append(".")
 
                 xrayshortdatalist.append(float(S))
                 xraylongdatalist.append(float(L))

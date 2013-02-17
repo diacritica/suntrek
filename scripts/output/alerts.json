@@ -1,5 +1,43 @@
 [
     {
+        "ALERTMESSAGE": "10cm Radio Burst",
+        "ALERTTYPE": "SUMMARY",
+        "ISSUETIME": "2013 Feb 17 1601 UTC",
+        "PAYLOAD": [
+            [
+                "Begin Time",
+                "2013 Feb 17 1547 UTC"
+            ],
+            [
+                "Maximum Time",
+                "2013 Feb 17 1547 UTC"
+            ],
+            [
+                "End Time",
+                "2013 Feb 17 1551 UTC"
+            ],
+            [
+                "Duration",
+                "4 minutes"
+            ],
+            [
+                "Peak Flux",
+                "340 sfu"
+            ],
+            [
+                "Latest Penticton Noon Flux",
+                "103 sfu"
+            ],
+            [
+                "Description",
+                "A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications."
+            ]
+        ],
+        "RAWPAYLOAD": "Begin Time: 2013 Feb 17 1547 UTC<br>Maximum Time: 2013 Feb 17 1547 UTC<br>End Time: 2013 Feb 17 1551 UTC<br>Duration: 4 minutes<br>Peak Flux: 340 sfu<br>Latest Penticton Noon Flux: 103 sfu<br>Description: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.<br>",
+        "SN": "572",
+        "SWMC": "SUM10R"
+    },
+    {
         "ALERTMESSAGE": "Geomagnetic K-index of 4",
         "ALERTTYPE": "ALERT",
         "ISSUETIME": "2013 Feb 16 1735 UTC",
