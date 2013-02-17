@@ -8,7 +8,15 @@ from StringIO import StringIO
 import settings
 
 basepath = "http://sohowww.nascom.nasa.gov/data/LATEST/"
+
+#For local connection, high quality
+#giffiles = ["current_c2.gif", "current_eit_171.gif", "current_eit_195.gif", "current_eit_284.gif", "current_eit_304.gif"]
+
+#For Internet connection, low quality
 giffiles = ["current_c2small.gif", "current_eit_171small.gif", "current_eit_195small.gif", "current_eit_284small.gif", "current_eit_304small.gif"]
+
+giffiles = [
+
 giffilesdescription = ["Inner solar corona up to 8.4 million kilometers away from the star.",
                        "171 Angstrom - materials at 1 Million K",
                        "195 Angstrom - materials at 1.5 Million K",
