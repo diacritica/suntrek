@@ -4,15 +4,33 @@
 {% block wijmojs %}
     <script src="external/jquery-1.8.0.min.js" type="text/javascript"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
+
+
+<script type="text/javascript" src="external/fadeslideshow.js"></script>
+<script type="text/javascript"> 
+var mygallery=new fadeSlideShow({
+    wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
+    dimensions: [512, 512], //width/height of gallery in pixels. Should reflect dimensions of largest image
+    imagearray: [
+    ["output/gifs/current_eit_171.gif"],
+    ["output/gifs/current_eit_195.gif"],
+    ["output/gifs/current_eit_284.gif"],
+    ["output/gifs/current_eit_304.gif"] //<--no trailing comma after very last image element!
+ ],
+    displaymode: {type:'auto', pause:2500, cycles:0, wraparound:true},
+    persist: false, //remember last viewed slide and recall within same session?
+    fadeduration: 900, //transition duration (milliseconds)
+    descreveal: "always",
+    togglerid: ""
+})
+ </script>
+
+
 {% endblock %}
 
 
 {% block content %}
 
-<img src="output/gifs/current_c2.gif">
-<img src="output/gifs/current_eit_171.gif">
-<img src="output/gifs/current_eit_195.gif">
-<img src="output/gifs/current_eit_284.gif">
-<img src="output/gifs/current_eit_304.gif">
+<div id="fadeshow1"></div>
 
 {% endblock %}

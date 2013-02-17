@@ -1,8 +1,16 @@
 #!/usr/bin/python                                                                                        
 # -*- coding: utf-8 -*-
 import json
+import requests
 
-alerts = [line[:-1] for line in open("../samples/current_month.html","r").readlines()]
+
+r = requests.get("http://www.swpc.noaa.gov/alerts/archive/current_month.html")
+i = open("output/current_month.html","w")
+i.write(r.content)
+i.close()
+print("current_month.html saved")
+
+alerts = [line[:-1] for line in open("output/current_month.html","r").readlines()]
 
 pos = alerts.index("<hr><p>")
 alertsList = []

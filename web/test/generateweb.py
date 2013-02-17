@@ -78,3 +78,16 @@ result = alertstemplate.render(alertlist=alertlist)
 
 alertsfile.write(result)
 alertsfile.close()
+
+#Sunspots progression
+solarcycletemplate = env.get_template('solarcycle.html')
+solarcyclefile = open("solarcycle.html","w")
+
+observedsolarcycle = open('output/observedsolarcycle.json','r').read()
+smoothedsolarcycle = open('output/smoothedsolarcycle.json','r').read()
+predictedsmoothedsolarcycle = open('output/predictedsmoothedsolarcycle.json','r').read()
+
+result = solarcycletemplate.render(dataseries01=observedsolarcycle, dataseries02=smoothedsolarcycle, dataseries03=predictedsmoothedsolarcycle)
+
+solarcyclefile.write(result)
+solarcyclefile.close()
