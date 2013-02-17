@@ -92,6 +92,7 @@ def run():
                 predictedsunspotdate = "-".join([YR,MO])
                 if YR != "2012":
                     if MO == "01":
+                        #We just add labels for January representing the year
                         predictedsunspotsdatelist.append(YR[2:])
                     else:
                         predictedsunspotsdatelist.append(".")
@@ -141,7 +142,7 @@ def run():
                 "y" : smoothedsunspotslist,                
                 },
                    "markers" : {
-                "visible" : True, "type" : "circle",
+                "visible" : False, "type" : "circle",
                 },
 
                    }

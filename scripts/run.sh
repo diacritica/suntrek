@@ -16,5 +16,5 @@ python2 solarcycle.py
 echo "alerts.py"
 python2 alerts.py
 
-echo "current_eit.py"
-python2 current_eit.py
+echo "current_eit.py disabled"
+#python2 current_eit.py

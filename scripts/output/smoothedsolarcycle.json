@@ -623,6 +623,6 @@
     "legendEntry": true,
     "markers": {
         "type": "circle",
-        "visible": true
+        "visible": false
     }
 }

@@ -15,7 +15,11 @@ indexfile.close()
 #EIT file
 eitfilterstemplate = env.get_template('eitfilters.html')
 eitfiltersfile = open("eitfilters.html","w")
-eitfiltersfile.write(eitfilterstemplate.render())
+
+eitlabels = open("output/current_eit.json","r")
+carousellabels = json.load(eitlabels)
+
+eitfiltersfile.write(eitfilterstemplate.render(carousellabels=carousellabels))
 eitfiltersfile.close()
 
 #Particles file

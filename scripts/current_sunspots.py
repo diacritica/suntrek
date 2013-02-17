@@ -9,18 +9,19 @@ from StringIO import StringIO
 import settings
 
 
-today = datetime.date.today()
-yesterday = today - datetime.timedelta(1)
-
-basepath = "http://www.spaceweather.com/images%s/%s/"%(today.strftime("%Y"),today.strftime("%d%b%y").lower())
-fallbackbasepath = "http://www.spaceweather.com/images%s/%s/"%(today.strftime("%Y"),yesterday.strftime("%d%b%y").lower())
-
-imagefiles = ["hmi240.gif", "hmi4096_blank.jpg"]
-textfiles = ["sunspot_labels.txt"]
-
-size = 600,600
-
 def run():
+    today = datetime.date.today()
+    yesterday = today - datetime.timedelta(1)
+    
+    
+    basepath = "http://www.spaceweather.com/images%s/%s/"%(today.strftime("%Y"),today.strftime("%d%b%y").lower())
+    fallbackbasepath = "http://www.spaceweather.com/images%s/%s/"%(today.strftime("%Y"),yesterday.strftime("%d%b%y").lower())
+    
+    imagefiles = ["hmi240.gif", "hmi4096_blank.jpg"]
+    textfiles = ["sunspot_labels.txt"]
+    
+    size = 600,600
+
 
     if settings.TEST == True:
         pass
@@ -35,7 +36,8 @@ def run():
                 i.thumbnail(size, Image.ANTIALIAS)
                 i.save("output/gifs/" + imgfilename)
                 print(imgfilename + " saved")
-            except:
+                print("current day")
+            except Exception, e:
                 r = requests.get(fallbackbasepath + imgfilename)
                 print(imgfilename + str(r.status_code))
                 i = Image.open(StringIO(r.content))
@@ -43,6 +45,7 @@ def run():
                 i.save("output/gifs/" + imgfilename)
                 print(imgfilename + " saved")
                 basepath = fallbackbasepath
+                print("yesterday",e)
 
         for txtfilename in textfiles:
             r = requests.get(basepath + txtfilename)
