@@ -15,14 +15,11 @@ basepath = "http://sohowww.nascom.nasa.gov/data/LATEST/"
 #For Internet connection, low quality
 giffiles = ["current_c2small.gif", "current_eit_171small.gif", "current_eit_195small.gif", "current_eit_284small.gif", "current_eit_304small.gif"]
 
-giffiles = [
-
 giffilesdescription = ["Inner solar corona up to 8.4 million kilometers away from the star.",
                        "171 Angstrom - materials at 1 Million K",
                        "195 Angstrom - materials at 1.5 Million K",
                        "284 Angstrom - materials at 2 Million K",
-                       "304 Angstrom - materials at 60.000 - 80.000 K",
-                       ]
+                       "304 Angstrom - materials at 60.000 - 80.000 K"]
 
 def run():
 

@@ -1,0 +1,43 @@
+{
+    "data": {
+        "x": [
+            "Feb24",
+            "Feb25",
+            "Feb26"
+        ],
+        "y": [
+            5,
+            1,
+            1
+        ]
+    },
+    "fitType": "line",
+    "label": "R1-R2",
+    "legendEntry": true,
+    "markers": {
+        "type": "circle",
+        "visible": true
+    },
+    "rationale": "No R1 (Minor) or greater radio blackouts are expected.  No significant active region flare activity is forecast."
+},{
+    "data": {
+        "x": [
+            "Feb24",
+            "Feb25",
+            "Feb26"
+        ],
+        "y": [
+            1,
+            1,
+            1
+        ]
+    },
+    "fitType": "line",
+    "label": "R3 or greater",
+    "legendEntry": true,
+    "markers": {
+        "type": "circle",
+        "visible": true
+    },
+    "rationale": "No R1 (Minor) or greater radio blackouts are expected.  No significant active region flare activity is forecast."
+},

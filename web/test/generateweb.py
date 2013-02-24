@@ -95,3 +95,30 @@ result = solarcycletemplate.render(dataseries01=observedsolarcycle, dataseries02
 
 solarcyclefile.write(result)
 solarcyclefile.close()
+
+#3day forecast file
+threedayforecasttemplate = env.get_template('threedayforecast.html')
+threedayforecastfile = open("threedayforecast.html","w")
+
+threedayforecastg = open('output/threedayforecastg.json','r').read()
+threedayforecastrb = open('output/threedayforecastrb.json','r').read()
+threedayforecastr = open('output/threedayforecastr.json','r').read()
+
+tdfg=json.loads(threedayforecastg)
+#tdfrb=json.loads(threedayforecastrb)
+tdfr=json.loads(threedayforecastr)
+
+result = threedayforecasttemplate.render(dataseries01=threedayforecastg,
+                                         dataseries02=threedayforecastrb,
+                                         dataseries03=threedayforecastr,
+                                         e1=tdfg["expected"],
+                                         r1=tdfg["rationale"],
+
+#                                         r2=tdfrb["rationale"],
+
+                                         r3=tdfr["rationale"],
+
+)
+
+threedayforecastfile.write(result)
+threedayforecastfile.close()

@@ -1,0 +1,63 @@
+{
+    "data": {
+        "x": [
+            "00-03UT",
+            "03-06UT",
+            "06-09UT",
+            "09-12UT",
+            "12-15UT",
+            "15-18UT",
+            "18-21UT",
+            "21-00UT",
+            "00-03UT",
+            "03-06UT",
+            "06-09UT",
+            "09-12UT",
+            "12-15UT",
+            "15-18UT",
+            "18-21UT",
+            "21-00UT",
+            "00-03UT",
+            "03-06UT",
+            "06-09UT",
+            "09-12UT",
+            "12-15UT",
+            "15-18UT",
+            "18-21UT",
+            "21-00UT"
+        ],
+        "y": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    "fitType": "line",
+    "label": "NOAA Geomagnetic Activity Observation and Forecast",
+    "legendEntry": true,
+    "markers": {
+        "type": "circle",
+        "visible": false
+    }
+}

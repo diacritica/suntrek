@@ -1,0 +1,22 @@
+{
+    "data": {
+        "x": [
+            "Feb24",
+            "Feb25",
+            "Feb26"
+        ],
+        "y": [
+            1,
+            1,
+            1
+        ]
+    },
+    "fitType": "line",
+    "label": "S1 or greater",
+    "legendEntry": true,
+    "markers": {
+        "type": "circle",
+        "visible": true
+    },
+    "rationale": "No S1 (Minor) or greater solar radiation storms are expected. No significant active region activity favorable for radiation storm production is forecast."
+}

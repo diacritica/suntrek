@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <title>Three-day Forecast - SUNTREK simple test page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    
+    <script src="external/jquery-1.8.0.min.js" type="text/javascript"></script>
+    <script src="external/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+    <script src="external/globalize.min.js" type="text/javascript"></script>
+    <script src="external/raphael-min.js" type="text/javascript"></script>
+    <script src="wijmo/jquery.wijmo.raphael.js" type="text/javascript"></script>
+    <script src="wijmo/jquery.wijmo.wijchartcore.js" type="text/javascript"></script>
+    <script src="wijmo/jquery.wijmo.wijlinechart.js" type="text/javascript"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+
+    
+
+    <script id="scriptInit" type="text/javascript">
+        $(document).ready(function () {
+            $("#wijdatelinechart").wijlinechart({
+                type: "line",
+                animation: { enabled: false },
+
+                showChartLabels: false,
+
+        header: {
+	text: "Geomagnetic Activity 3-day forecast"
+	},
+
+                legend: { compass: "south", orientation: "horizontal", textStyle: { "font-size": "11px", fill: "#3A3A3A"} },
+                hint: {
+                    content: function () {
+                        return this.y + ' Kp';
+                    },
+                    offsetY: -10,
+                    style: { fill: "#fff" },
+                    contentStyle: { "font-size": "11px", fill: "#000" },
+                    titleStyle: { "font-size": "11px" }, showCallout: true
+                },
+
+                seriesList: [
+
+	{
+    "data": {
+        "x": [
+            "00-03UT",
+            "03-06UT",
+            "06-09UT",
+            "09-12UT",
+            "12-15UT",
+            "15-18UT",
+            "18-21UT",
+            "21-00UT",
+            "00-03UT",
+            "03-06UT",
+            "06-09UT",
+            "09-12UT",
+            "12-15UT",
+            "15-18UT",
+            "18-21UT",
+            "21-00UT",
+            "00-03UT",
+            "03-06UT",
+            "06-09UT",
+            "09-12UT",
+            "12-15UT",
+            "15-18UT",
+            "18-21UT",
+            "21-00UT"
+        ],
+        "y": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    "expected": "The greatest expected 3 hr Kp for Feb 24-Feb 26 2013 is 2 (below NOAAScale levels).",
+    "fitType": "line",
+    "label": "Kp Index Breakdown",
+    "legendEntry": true,
+    "markers": {
+        "type": "circle",
+        "visible": true
+    },
+    "rationale": "No G1 (Minor) or greater geomagnetic storms are expected.  No significant transient or recurrent solar wind features are forecast."
+}
+
+,
+
+				],
+                axis: {
+                    y: {
+                        labels: {
+                            style: {
+                                fill: "#3A3A3A",
+                                "font-size": "11px",
+                                "font-family": "fixed",
+                                "font-weight": "normal"
+                            }
+                        },
+                        gridMajor: { visible: true,
+
+                            style: { stroke: "#efefef" }
+
+                        }
+
+                    },
+
+                    x: {
+
+                        labels: {
+
+                            style: {
+
+                                fill: "#3A3A3A",
+
+                                "font-size": "11px",
+
+                                "font-family": "Tahoma",
+
+                                "font-weight": "normal"
+
+
+
+                            }
+
+                        },
+                        annoFormatString: "MM/yyyy",
+                        tickMajor: { position: "outside", style: { stroke: "#999999"} },
+                        gridMajor: { visible: true,
+                            style: { stroke: "#efefef", "stroke-dasharray": "none" }
+
+                        }
+
+                    }
+
+                },
+
+	        seriesStyles: [{
+                        stroke: "#761CEC", "stroke-width": 1, opacity: 1
+                    }, {
+                        stroke: "#CC0000", "stroke-width": 1, opacity: 1
+                    }, {
+                        stroke: "#fe0fe0", "stroke-width": 1, opacity: 1
+                }],
+               
+
+            });
+
+            var resizeTimer = null;
+
+
+
+            $(window).resize(function () {
+
+                window.clearTimeout(resizeTimer);
+
+                resizeTimer = window.setTimeout(function () {
+
+                    var jqLine = $("#wijdatelinechart"),
+
+						width = jqLine.width(),
+
+						height = jqLine.height();
+
+
+
+                    if (!width || !height) {
+
+                        window.clearTimeout(resizeTimer);
+
+                        return;
+
+                    }
+
+
+
+                    jqLine.wijlinechart("redraw", width, height);
+
+                }, 250);
+
+            });
+
+
+        })
+    </script>
+
+    <script id="scriptInit2" type="text/javascript">
+        $(document).ready(function () {
+            $("#wijdatelinechart2").wijlinechart({
+                type: "line",
+                animation: { enabled: false },
+
+                showChartLabels: false,
+        header: {
+	text: "Solar Radiation Activity 3-day forecast"
+	},
+
+                legend: { compass: "south", orientation: "horizontal", textStyle: { "font-size": "11px", fill: "#3A3A3A"} },
+                hint: {
+                    content: function () {
+                        return this.y + ' %';
+                    },
+                    offsetY: -10,
+                    style: { fill: "#fff" },
+                    contentStyle: { "font-size": "11px", fill: "#000" },
+                    titleStyle: { "font-size": "11px" }, showCallout: true
+                },
+
+                seriesList: [
+
+	{
+    "data": {
+        "x": [
+            "Feb24",
+            "Feb25",
+            "Feb26"
+        ],
+        "y": [
+            5,
+            1,
+            1
+        ]
+    },
+    "fitType": "line",
+    "label": "R1-R2",
+    "legendEntry": true,
+    "markers": {
+        "type": "circle",
+        "visible": true
+    },
+    "rationale": "No R1 (Minor) or greater radio blackouts are expected.  No significant active region flare activity is forecast."
+},{
+    "data": {
+        "x": [
+            "Feb24",
+            "Feb25",
+            "Feb26"
+        ],
+        "y": [
+            1,
+            1,
+            1
+        ]
+    },
+    "fitType": "line",
+    "label": "R3 or greater",
+    "legendEntry": true,
+    "markers": {
+        "type": "circle",
+        "visible": true
+    },
+    "rationale": "No R1 (Minor) or greater radio blackouts are expected.  No significant active region flare activity is forecast."
+},
+,
+
+				],
+                axis: {
+                    y: {
+                        labels: {
+                            style: {
+                                fill: "#3A3A3A",
+                                "font-size": "11px",
+                                "font-family": "fixed",
+                                "font-weight": "normal"
+                            }
+                        },
+                        gridMajor: { visible: true,
+
+                            style: { stroke: "#efefef" }
+
+                        }
+
+                    },
+
+                    x: {
+
+                        labels: {
+
+                            style: {
+
+                                fill: "#3A3A3A",
+
+                                "font-size": "11px",
+
+                                "font-family": "Tahoma",
+
+                                "font-weight": "normal"
+
+
+
+                            }
+
+                        },
+                        annoFormatString: "MM/yyyy",
+                        tickMajor: { position: "outside", style: { stroke: "#999999"} },
+                        gridMajor: { visible: true,
+                            style: { stroke: "#efefef", "stroke-dasharray": "none" }
+
+                        }
+
+                    }
+
+                },
+
+	        seriesStyles: [{
+                        stroke: "#002e33", "stroke-width": 1, opacity: 1
+                    }, {
+                        stroke: "#71A6D2", "stroke-width": 1, opacity: 1
+                    }, {
+                        stroke: "#fe0fe0", "stroke-width": 1, opacity: 1
+                }],
+               
+
+            });
+
+            var resizeTimer = null;
+
+
+
+            $(window).resize(function () {
+
+                window.clearTimeout(resizeTimer);
+
+                resizeTimer = window.setTimeout(function () {
+
+                    var jqLine = $("#wijdatelinechart2"),
+
+						width = jqLine.width(),
+
+						height = jqLine.height();
+
+
+
+                    if (!width || !height) {
+
+                        window.clearTimeout(resizeTimer);
+
+                        return;
+
+                    }
+
+
+
+                    jqLine.wijlinechart("redraw", width, height);
+
+                }, 250);
+
+            });
+
+
+        })
+    </script>
+
+    <script id="scriptInit3" type="text/javascript">
+        $(document).ready(function () {
+            $("#wijdatelinechart3").wijlinechart({
+                type: "line",
+                animation: { enabled: false },
+        header: {
+	text: "Radio Blackout Activity 3-day Forecast"
+	},
+
+                showChartLabels: false,
+                legend: { compass: "south", orientation: "horizontal", textStyle: { "font-size": "11px", fill: "#3A3A3A"} },
+                hint: {
+                    content: function () {
+                        return this.y + ' %';
+                    },
+                    offsetY: -10,
+                    style: { fill: "#fff" },
+                    contentStyle: { "font-size": "11px", fill: "#000" },
+                    titleStyle: { "font-size": "11px" }, showCallout: true
+                },
+
+                seriesList: [
+
+	{
+    "data": {
+        "x": [
+            "Feb24",
+            "Feb25",
+            "Feb26"
+        ],
+        "y": [
+            1,
+            1,
+            1
+        ]
+    },
+    "fitType": "line",
+    "label": "S1 or greater",
+    "legendEntry": true,
+    "markers": {
+        "type": "circle",
+        "visible": true
+    },
+    "rationale": "No S1 (Minor) or greater solar radiation storms are expected. No significant active region activity favorable for radiation storm production is forecast."
+}
+,
+
+				],
+                axis: {
+                    y: {
+                        labels: {
+                            style: {
+                                fill: "#3A3A3A",
+                                "font-size": "11px",
+                                "font-family": "fixed",
+                                "font-weight": "normal"
+                            }
+                        },
+                        gridMajor: { visible: true,
+
+                            style: { stroke: "#efefef" }
+
+                        }
+
+                    },
+
+                    x: {
+
+                        labels: {
+
+                            style: {
+
+                                fill: "#3A3A3A",
+
+                                "font-size": "11px",
+
+                                "font-family": "Tahoma",
+
+                                "font-weight": "normal"
+
+
+
+                            }
+
+                        },
+                        annoFormatString: "MM/yyyy",
+                        tickMajor: { position: "outside", style: { stroke: "#999999"} },
+                        gridMajor: { visible: true,
+                            style: { stroke: "#efefef", "stroke-dasharray": "none" }
+
+                        }
+
+                    }
+
+                },
+
+	        seriesStyles: [{
+                        stroke: "#CC0000", "stroke-width": 1, opacity: 1
+                    }, {
+                        stroke: "#40826D", "stroke-width": 1, opacity: 1
+                    }, {
+                        stroke: "#fe0fe0", "stroke-width": 1, opacity: 1
+                }],
+               
+
+            });
+
+            var resizeTimer = null;
+
+
+
+            $(window).resize(function () {
+
+                window.clearTimeout(resizeTimer);
+
+                resizeTimer = window.setTimeout(function () {
+
+                    var jqLine = $("#wijdatelinechart3"),
+
+						width = jqLine.width(),
+
+						height = jqLine.height();
+
+
+
+                    if (!width || !height) {
+
+                        window.clearTimeout(resizeTimer);
+
+                        return;
+
+                    }
+
+
+
+                    jqLine.wijlinechart("redraw", width, height);
+
+                }, 250);
+
+            });
+
+
+        })
+    </script>
+
+
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="bootstrap/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="bootstrap/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="bootstrap/ico/apple-touch-icon-114-precomposed.png">
+     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="bootstrap/ico/apple-touch-icon-72-precomposed.png">
+     <link rel="apple-touch-icon-precomposed" href="bootstrap/ico/apple-touch-icon-57-precomposed.png">
+     <link rel="shortcut icon" href="bootstrap/ico/favicon.png">
+     
+  </head>
+
+  <body>
+
+    
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">SUNTREK</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="eitfilters.html">EIT Filters</a></li>
+              <li><a href="particleflux.html">Particle flux</a></li>
+              <li><a href="electronflux.html">Electron flux</a></li>
+              <li><a href="xrayflux.html">X-ray flux</a></li>
+              <li><a href="sunspots.html">Sunspots</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="solarcycle.html">Solar Cycle</a></li>
+              <li><a href="threedayforecast.html">3-day Forecast</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="container">
+      
+
+<div id="wijdatelinechart" style="width: 450px; height: 300px; float: left; margin-bottom: 5px;">
+The greatest expected 3 hr Kp for Feb 24-Feb 26 2013 is 2 (below NOAAScale levels).
+No G1 (Minor) or greater geomagnetic storms are expected.  No significant transient or recurrent solar wind features are forecast.
+</div>
+
+<div id="wijdatelinechart2" style="width: 450px; height: 300px; float: left;">
+
+</div>
+
+<div id="wijdatelinechart3" style="width: 450px; height: 300px; float: left;">
+No S1 (Minor) or greater solar radiation storms are expected. No significant active region activity favorable for radiation storm production is forecast.
+</div>
+
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+
+  </body>
+</html>
