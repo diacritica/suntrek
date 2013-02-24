@@ -2,14 +2,16 @@
 # -*- coding: utf-8 -*-
 
 import json
+import time
 from jinja2 import Environment, PackageLoader
+
 
 env = Environment(loader=PackageLoader('suntrek', 'jinjatemplates'))
 
 # INDEX file
 indextemplate = env.get_template('index.html')
 indexfile = open("index.html","w")
-indexfile.write(indextemplate.render())
+indexfile.write(indextemplate.render(date=time.ctime()))
 indexfile.close()
 
 #EIT file
