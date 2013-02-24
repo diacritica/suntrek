@@ -25,11 +25,9 @@ How to test it (on Linux distributions)
 Data shown (planned)
 --------------------
 
-* Animated gifs showing the Sun through filters LASCO/C2, EIT 304A, EIT 195A, EIT 171A and EIT 284A. [http://sohowww.nascom.nasa.gov/data/realtime/gif/]
+* Animated gifs showing the Sun through filters LASCO/C2, EIT 304A, EIT 195A, EIT 171A and EIT 284A. [http://sohowww.nascom.nasa.gov/data/realtime/gif/] 
 
 * Picture of the Sun with last 24h sunspots + number of sunspots [http://www.spaceweather.com/] and [http://www.spaceweather.com/images2013/]
-
-* Current conditions (solar wind, X-ray solar flares) [http://www.spaceweather.com/]
 
 * Chart depicting GOES-13 Solar Particle Flux for the last 24h [http://www.swpc.noaa.gov/ftpdir/lists/particle/]
 
@@ -43,3 +41,4 @@ Data shown (planned)
 
 * 3-day Forecast [http://www.swpc.noaa.gov/ftpmenu/forecasts/three_day.html]
 
+* Current conditions (solar wind, X-ray solar flares) [http://www.spaceweather.com/]
