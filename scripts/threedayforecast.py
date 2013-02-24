@@ -120,7 +120,7 @@ def run():
 
         radiationdict = {
             "fitType": "line",
-            "label": categories[i],
+            "label": categories[i]+" (% prob)",
             "legendEntry": True,
             "markers": {
                 "type": "circle",
@@ -154,7 +154,7 @@ def run():
         radioblackoutdict = {
 
             "fitType": "line",
-            "label": categories[i],
+            "label": categories[i]+" (% prob)",
             "legendEntry": True,
             "markers": {
                 "type": "circle",

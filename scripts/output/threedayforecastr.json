@@ -12,7 +12,7 @@
         ]
     },
     "fitType": "line",
-    "label": "S1 or greater",
+    "label": "S1 or greater (% prob)",
     "legendEntry": true,
     "markers": {
         "type": "circle",
