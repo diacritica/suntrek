@@ -21,6 +21,13 @@ How to test it (on Linux distributions)
 
 * Open index.html in web/test folder.
 
+How to test it (online)
+---------------------------------------
+
+You can visit http://suntrek.diacritica.net to get a general idea. 
+
+The characteristic LCARS Star Trek interface will come up shortly.
+
 
 Data shown (planned)
 --------------------
