@@ -70,9 +70,9 @@ def run():
         electronE20datalist = []
 
         for line in fdfile:
-            values = line.strip().split()
-            if len(values) == 15 and "-1.00e+05" not in values:
-                YR,MO,DA,HHMM,GDay,GSec,P1,P5,P10,P30,P50,P100,E08,E20,E40 = values
+            values = line.strip().split()[:-1] #we skip latest E>4.0 MeV
+            if len(values) == 14 and "-1.00e+05" not in values:
+                YR,MO,DA,HHMM,GDay,GSec,P1,P5,P10,P30,P50,P100,E08,E20 = values
                 particledatetime = datetime.datetime(int(YR),int(MO), \
                                                          int(DA),int(HHMM[:2]), \
                                                          int(HHMM[2:])).isoformat()
