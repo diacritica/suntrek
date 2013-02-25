@@ -71,7 +71,7 @@ def run():
 
         for line in fdfile:
             values = line.strip().split()
-            if len(values) == 15:
+            if len(values) == 15 and "-1.00e+05" not in values:
                 YR,MO,DA,HHMM,GDay,GSec,P1,P5,P10,P30,P50,P100,E08,E20,E40 = values
                 particledatetime = datetime.datetime(int(YR),int(MO), \
                                                          int(DA),int(HHMM[:2]), \
