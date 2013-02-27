@@ -48,4 +48,4 @@ Data shown (planned)
 
 * 3-day Forecast [http://www.swpc.noaa.gov/ftpmenu/forecasts/three_day.html]
 
-* Current conditions (solar wind, X-ray solar flares) [http://www.spaceweather.com/]
+* Current conditions (solar wind, X-ray solar flares) [http://www.swpc.noaa.gov/ftpdir/lists/ace/ace_swepam_1m.txt]
