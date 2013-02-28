@@ -1,25 +1,31 @@
 :Product: 3-Day Forecast
-:Issued: 2013 Feb 24 1230 UTC
+:Issued: 2013 Feb 28 1230 UTC
 # Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
 #
 A. NOAA Geomagnetic Activity Observation and Forecast
 
 The greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA
 Scale levels).
-The greatest expected 3 hr Kp for Feb 24-Feb 26 2013 is 2 (below NOAA
+The greatest expected 3 hr Kp for Feb 28-Mar 02 2013 is 3 (below NOAA
 Scale levels).
 
-NOAA Kp index breakdown Feb 24-Feb 26 2013
+NOAA Kp index breakdown Feb 28-Mar 02 2013
 
-            Feb 24     Feb 25     Feb 26
-00-03UT        1          2          1     
-03-06UT        1          1          1     
-06-09UT        1          1          1     
-09-12UT        1          1          2     
-12-15UT        2          1          1     
-15-18UT        2          1          1     
-18-21UT        1          1          1     
-21-00UT        1          2          1     
+            Feb 28     Mar 01     Mar 02
+00-03UT        2          3          2     
+03-06UT        1          3          2     
+06-09UT        2          3          2     
+09-12UT        1          3          2     
+12-15UT        2          3          2     
+15-18UT        1          3          2     
+18-21UT        1          3          2     
+21-00UT        2          2          2     
+No G1 (Minor) or greater geomagnetic storms are expected on day one (28
+Feb).  Field activity is expected to increase to quiet to unsettled
+levels on day two (01 Mar), with a slight chance for G1 (Minor) storms,
+due to the onset of a coronal hole high-speed stream (CH HSS).  Activity
+is expected to return to quiet levels on day three (02 Mar), with a
+chance for unsettled levels, as CH HSS effects subside.
 
 Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
 significant transient or recurrent solar wind features are forecast.
@@ -29,9 +35,9 @@ B. NOAA Solar Radiation Activity Observation and Forecast
 Solar radiation, as observed by NOAA GOES-13 over the past 24 hours, was
 below S-scale storm level thresholds.
 
-Solar Radiation Storm Forecast for Feb 24-Feb 26 2013
+Solar Radiation Storm Forecast for Feb 28-Mar 02 2013
 
-              Feb 24  Feb 25  Feb 26
+              Feb 28  Mar 01  Mar 02
 S1 or greater    1%      1%      1%
 
 Rationale: No S1 (Minor) or greater solar radiation storms are expected.
@@ -42,11 +48,12 @@ C. NOAA Radio Blackout Activity and Forecast
 
 No radio blackouts were observed over the past 24 hours.
 
-Radio Blackout Forecast for Feb 24-Feb 26 2013
+Radio Blackout Forecast for Feb 28-Mar 02 2013
 
-              Feb 24        Feb 25        Feb 26
-R1-R2            5%            1%            1%
+              Feb 28        Mar 01        Mar 02
+R1-R2           10%           10%           10%
 R3 or greater    1%            1%            1%
 
-Rationale: No R1 (Minor) or greater radio blackouts are expected.  No
-significant active region flare activity is forecast.
+Rationale: There is a slight chance for R1-R2 (Minor-Moderate) radio
+blackouts during the forecast period, due primarily to the flare
+potential in Region 1682.

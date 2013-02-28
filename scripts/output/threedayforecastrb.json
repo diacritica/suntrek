@@ -1,14 +1,14 @@
 {
     "data": {
         "x": [
-            "Feb24",
-            "Feb25",
-            "Feb26"
+            "Feb28",
+            "Mar01",
+            "Mar02"
         ],
         "y": [
-            5,
-            1,
-            1
+            10,
+            10,
+            10
         ]
     },
     "fitType": "line",
@@ -18,13 +18,13 @@
         "type": "circle",
         "visible": true
     },
-    "rationale": "No R1 (Minor) or greater radio blackouts are expected.  No significant active region flare activity is forecast."
+    "rationale": "There is a slight chance for R1-R2 (Minor-Moderate) radio blackouts during the forecast period, due primarily to the flare potential in Region 1682."
 },{
     "data": {
         "x": [
-            "Feb24",
-            "Feb25",
-            "Feb26"
+            "Feb28",
+            "Mar01",
+            "Mar02"
         ],
         "y": [
             1,
@@ -39,5 +39,5 @@
         "type": "circle",
         "visible": true
     },
-    "rationale": "No R1 (Minor) or greater radio blackouts are expected.  No significant active region flare activity is forecast."
+    "rationale": "There is a slight chance for R1-R2 (Minor-Moderate) radio blackouts during the forecast period, due primarily to the flare potential in Region 1682."
 },

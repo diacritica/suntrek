@@ -77,7 +77,7 @@ def run():
                                                          int(DA),int(HHMM[:2]), \
                                                          int(HHMM[2:])).isoformat()
 
-                if HHMM[2:] == "00":
+                if HHMM[2:] == "00": #o'clock times'
                     particledatetimelist.append(particledatetime)
                 else:
                     particledatetimelist.append(".")
@@ -106,6 +106,7 @@ def run():
         fdp10f.write(jsontext)
         fdp10f.close()
 
+        
         P100dict = {"label":"P>100MeV","legendEntry":True, "fitType": "line",
                    "data" : {
                 "x" : particledatetimelist,
@@ -139,6 +140,7 @@ def run():
         fde08f.write(jsontext)
         fde08f.close()
 
+        
         E20dict = {"label":"E>2.0MeV","legendEntry":True, "fitType": "spline",
                    "data" : {
                 "x" : particledatetimelist,
