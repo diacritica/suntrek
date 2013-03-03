@@ -18,6 +18,9 @@
       <div class="accordion-heading">
 	{% if alert.ALERTTYPE == 'ALERT' %}
 	<span class="label label-important">ALERT</span>
+
+	{% elif alert.ALERTTYPE == 'CONTINUED ALERT' %}
+	<span class="label label-important">CONTINUED ALERT</span>
 	
 	{% elif alert.ALERTTYPE == 'WARNING' %}
 	<span class="label label-warning">WARNING</span>
