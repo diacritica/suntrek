@@ -36,7 +36,7 @@ def run():
 
     endhoursB = f.index("",fBpos+8)
     
-    hoursB = [line.split("    ") for line in f[fBpos+8:endhoursB]]
+    hoursB = [line.split("   ") for line in f[fBpos+8:endhoursB]]
     hoursBday1 = [(data[0],data[1][:-1]) for data in hoursB]
     hoursBday2 = [(data[0],data[2][:-1]) for data in hoursB]
     hoursBday3 = [(data[0],data[3][:-1]) for data in hoursB]
@@ -54,23 +54,32 @@ def run():
              
 
 
-    endhoursC = f.index("",fCpos+8)
+    NUMTOKEN = 6 
+    #sadly, we have to check if the file has two lines after C. section and not the usual one
+    if f.index("",fCpos+3)!="\n":
+        NUMTOKEN = 7
+        print NUMTOKEN
 
-    hoursCprev = [line.split() for line in f[fCpos+7:endhoursC]]
+    endhoursC = f.index("",fCpos+NUMTOKEN+1)
+
+    hoursCprev = [line.split() for line in f[fCpos+NUMTOKEN+1:endhoursC]]
+    print hoursCprev
     hoursC = [(" ".join(l[:-3]),l[-3],l[-2],l[-1]) for l in hoursCprev]
-    
+    print hoursC
 
     hoursCday1 = [(data[0],data[1][:-1]) for data in hoursC]
     hoursCday2 = [(data[0],data[2][:-1]) for data in hoursC]
     hoursCday3 = [(data[0],data[3][:-1]) for data in hoursC]
-    
+    print hoursCday1
+    print hoursCday2
+    print hoursCday3
 
     radioblackout = {"title": f[fCpos][3:],
-                     "day1":{"title":"".join(f[fCpos+6].split()[0:2]),
+                     "day1":{"title":"".join(f[fCpos+NUMTOKEN].split()[0:2]),
                              "cat":hoursCday1},
-                     "day2":{"title":"".join(f[fCpos+6].split()[2:4]),
+                     "day2":{"title":"".join(f[fCpos+NUMTOKEN].split()[2:4]),
                              "cat":hoursCday2},
-                     "day3":{"title":"".join(f[fCpos+6].split()[4:6]),
+                     "day3":{"title":"".join(f[fCpos+NUMTOKEN].split()[4:6]),
                              "cat":hoursCday3},
                      "rationale":" ".join(f[endhoursC+1:]).split(":")[1].strip(),
                  }
@@ -178,4 +187,5 @@ def run():
 
 
 if __name__ == '__main__':
+#    pass
     run()

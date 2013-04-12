@@ -1,14 +1,14 @@
 {
     "data": {
         "x": [
-            "Feb28",
-            "Mar01",
-            "Mar02"
+            "Apr11",
+            "Apr12",
+            "Apr13"
         ],
         "y": [
-            1,
-            1,
-            1
+            99,
+            10,
+            10
         ]
     },
     "fitType": "line",
@@ -18,5 +18,5 @@
         "type": "circle",
         "visible": true
     },
-    "rationale": "No S1 (Minor) or greater solar radiation storms are expected. No significant active region activity favorable for radiation storm production is forecast."
+    "rationale": "S1 (Minor) solar radiation storms are expected for day 1 (April 11) in response to the M6 flare from Region 1719 earlier on April 11."
 }

@@ -1,4 +1,6 @@
-1680 S28W00   270  0020 Cro  04   03 Beta
-1681 N17E20   249  0020 Cro  02   02 Beta
-1682 S18W30   299  0180 Dai  08   15 Beta-Gamma
-1683 S16E68   201  0150 Dao  06   03 Beta
+1711 S16W82   158  0230 Hax  04   02 Alpha
+1714 N13W52   128  0050 Hsx  01   01 Alpha
+1718 N22W32   108  0340 Dkc  08   24 Beta-Gamma
+1719 N10W00   076  0180 Eai  11   20 Beta-Gamma-Delta
+1721 S19E20   056  0080 Dao  07   10 Beta-Gamma
+1722 S21E30   046  0080 Dao  07   04 Beta
