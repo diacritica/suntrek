@@ -1,35 +1,14 @@
 {
     "data": {
         "x": [
-            "Apr11",
-            "Apr12",
-            "Apr13"
+            "R1-R210%",
+            "10%10%",
+            ""
         ],
         "y": [
-            30,
-            30,
-            30
-        ]
-    },
-    "fitType": "line",
-    "label": "R1-R2 (% prob)",
-    "legendEntry": true,
-    "markers": {
-        "type": "circle",
-        "visible": true
-    },
-    "rationale": "No R1 (Minor) or greater radio blackouts are expected.  No significant active region flare activity is forecast."
-},{
-    "data": {
-        "x": [
-            "Apr11",
-            "Apr12",
-            "Apr13"
-        ],
-        "y": [
-            10,
-            10,
-            10
+            1,
+            1,
+            1
         ]
     },
     "fitType": "line",
@@ -39,5 +18,5 @@
         "type": "circle",
         "visible": true
     },
-    "rationale": "No R1 (Minor) or greater radio blackouts are expected.  No significant active region flare activity is forecast."
-},
+    "rationale": "There is a slight chance for an R1 (Minor) or greater radio blackout, primarily from Region 1765."
+}

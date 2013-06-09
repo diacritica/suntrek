@@ -1,440 +1,118 @@
 [
     {
-        "ALERTMESSAGE": "Proton Event 10MeV Integral Flux exceeded 100pfu",
-        "ALERTTYPE": "SUMMARY",
-        "ISSUETIME": "2013 Apr 12 0019 UTC",
+        "ALERTMESSAGE": "Geomagnetic Storm Category G1 Predicted",
+        "ALERTTYPE": "CANCEL WATCH",
+        "ISSUETIME": "2013 Jun 09 1510 UTC",
         "PAYLOAD": [
             [
-                "Begin Time",
-                "2013 Apr 11 1630 UTC"
+                "Cancel Serial Number",
+                "528"
             ],
             [
-                "Maximum Time",
-                "2013 Apr 11 1645 UTC"
+                "Original Issue Time",
+                "2013 Jun 07 2004 UTC"
             ],
             [
-                "End Time",
-                "2013 Apr 11 1705 UTC"
-            ],
-            [
-                "Maximum 10MeV Flux",
-                "114 pfu"
-            ],
-            [
-                "NOAA Scale",
-                "S2 - Moderate"
-            ]
-        ],
-        "RAWPAYLOAD": "Begin Time: 2013 Apr 11 1630 UTC<br>Maximum Time: 2013 Apr 11 1645 UTC<br>End Time: 2013 Apr 11 1705 UTC<br>Maximum 10MeV Flux: 114 pfu<br>NOAA Scale: S2 - Moderate<br>",
-        "SN": "33",
-        "SWMC": "SUMPX2"
-    },
-    {
-        "ALERTMESSAGE": "Proton Event 100MeV Integral Flux exceeded 1pfu",
-        "ALERTTYPE": "SUMMARY",
-        "ISSUETIME": "2013 Apr 12 0019 UTC",
-        "PAYLOAD": [
-            [
-                "Begin Time",
-                "2013 Apr 11 0940 UTC"
-            ],
-            [
-                "Maximum Time",
-                "2013 Apr 11 1400 UTC"
-            ],
-            [
-                "End Time",
-                "2013 Apr 11 1955 UTC"
-            ],
-            [
-                "Maximum 100MeV Flux",
-                "2 pfu"
-            ]
-        ],
-        "RAWPAYLOAD": "Begin Time: 2013 Apr 11 0940 UTC<br>Maximum Time: 2013 Apr 11 1400 UTC<br>End Time: 2013 Apr 11 1955 UTC<br>Maximum 100MeV Flux: 2 pfu<br>",
-        "SN": "23",
-        "SWMC": "SUMPC0"
-    },
-    {
-        "ALERTMESSAGE": "Proton 10MeV Integral Flux above 10pfu expected",
-        "ALERTTYPE": "EXTENDED WARNING",
-        "ISSUETIME": "2013 Apr 12 0019 UTC",
-        "PAYLOAD": [
-            [
-                "Extension to Serial Number",
-                "390"
-            ],
-            [
-                "Valid From",
-                "2013 Apr 11 0915 UTC"
-            ],
-            [
-                "Now Valid Until",
-                "2013 Apr 12 2200 UTC"
-            ],
-            [
-                "Warning Condition",
-                "Persistence"
-            ],
-            [
-                "Predicted NOAA Scale",
-                "S1 - Minor"
+                "</p><p>Comment",
+                "The G1 Watch is cancelled as current space weather conditions are nominal and expected to remain so."
             ],
             [
                 "Potential Impacts",
-                "Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies."
-            ]
-        ],
-        "RAWPAYLOAD": "Extension to Serial Number: 390<br>Valid From: 2013 Apr 11 0915 UTC<br>Now Valid Until: 2013 Apr 12 2200 UTC<br>Warning Condition: Persistence<br>Predicted NOAA Scale: S1 - Minor<br>Potential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.<br>",
-        "SN": "391",
-        "SWMC": "WARPX1"
-    },
-    {
-        "ALERTMESSAGE": "Geomagnetic Storm Category G2 Predicted",
-        "ALERTTYPE": "WATCH",
-        "ISSUETIME": "2013 Apr 11 2115 UTC",
-        "PAYLOAD": [
-            [
-                "Highest Storm Level Predicted by Day",
-                ""
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
             ],
             [
-                "Highest Storm Level Predicted by Day",
-                ""
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
             ],
             [
-                "Potential Impacts",
-                "Area of impact primarily poleward of 55 degrees Geomagnetic Latitude."
-            ],
-            [
-                "Radio",
-                "HF (high frequency) radio propagation can fade at higher latitudes."
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
             ],
             [
                 "Aurora",
-                "Aurora may be seen as low as New York to Wisconsin to Washington state."
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
             ]
         ],
-        "RAWPAYLOAD": "Highest Storm Level Predicted by Day:<br>Apr 12:  None (Below G1)   Apr 13:  G2 (Moderate)   Apr 14:  G2 (Moderate)<br>THIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT<br>Potential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.<br>Induced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.<br>Spacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.<br>Radio - HF (high frequency) radio propagation can fade at higher latitudes.<br>Aurora - Aurora may be seen as low as New York to Wisconsin to Washington state.<br>",
-        "SN": "103",
-        "SWMC": "WATA30"
+        "RAWPAYLOAD": "Cancel Serial Number: 528<br>Original Issue Time: 2013 Jun 07 2004 UTC<br></p><p>Comment: The G1 Watch is cancelled as current space weather conditions are nominal and expected to remain so.<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "529",
+        "SWMC": "WATA20"
     },
     {
-        "ALERTMESSAGE": "Proton 10MeV Integral Flux above 10pfu expected",
-        "ALERTTYPE": "EXTENDED WARNING",
-        "ISSUETIME": "2013 Apr 11 1649 UTC",
+        "ALERTMESSAGE": "Electron 2MeV Integral Flux exceeded 1000pfu",
+        "ALERTTYPE": "CONTINUED ALERT",
+        "ISSUETIME": "2013 Jun 09 0806 UTC",
         "PAYLOAD": [
             [
-                "Extension to Serial Number",
-                "389"
+                "Continuation of Serial Number",
+                "2030"
             ],
-            [
-                "Valid From",
-                "2013 Apr 11 0915 UTC"
-            ],
-            [
-                "Now Valid Until",
-                "2013 Apr 12 1100 UTC"
-            ],
-            [
-                "Warning Condition",
-                "Persistence"
-            ],
-            [
-                "Predicted NOAA Scale",
-                "S2 - Moderate"
-            ],
-            [
-                "Potential Impacts",
-                "Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies."
-            ]
-        ],
-        "RAWPAYLOAD": "Extension to Serial Number: 389<br>Valid From: 2013 Apr 11 0915 UTC<br>Now Valid Until: 2013 Apr 12 1100 UTC<br>Warning Condition: Persistence<br>Predicted NOAA Scale: S2 - Moderate<br>Potential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.<br>",
-        "SN": "390",
-        "SWMC": "WARPX1"
-    },
-    {
-        "ALERTMESSAGE": "Proton Event 10MeV Integral Flux exceeded 100pfu",
-        "ALERTTYPE": "ALERT",
-        "ISSUETIME": "2013 Apr 11 1649 UTC",
-        "PAYLOAD": [
             [
                 "Begin Time",
-                "2013 Apr 11 1630 UTC"
+                "2013 Jun 07 1115 UTC"
             ],
             [
-                "NOAA Scale",
-                "S2 - Moderate"
-            ],
-            [
-                "Potential Impacts",
-                "Radiation - Passengers and crew in high latitude, high altitude flights may experience small, increased radiation exposures."
-            ],
-            [
-                "Radio",
-                "Small effects on polar HF (high frequency) propagation resulting in fades at lower frequencies."
-            ]
-        ],
-        "RAWPAYLOAD": "Begin Time: 2013 Apr 11 1630 UTC<br>NOAA Scale: S2 - Moderate<br>Potential Impacts: Radiation - Passengers and crew in high latitude, high altitude flights may experience small, increased radiation exposures.<br>Spacecraft - Infrequent single-event upsets to satellites are possible.<br>Radio - Small effects on polar HF (high frequency) propagation resulting in fades at lower frequencies.<br>",
-        "SN": "52",
-        "SWMC": "ALTPX2"
-    },
-    {
-        "ALERTMESSAGE": "Geomagnetic Storm Category G2 Predicted",
-        "ALERTTYPE": "WATCH",
-        "ISSUETIME": "2013 Apr 11 1403 UTC",
-        "PAYLOAD": [
-            [
-                "Highest Storm Level Predicted by Day",
-                ""
-            ],
-            [
-                "Highest Storm Level Predicted by Day",
-                ""
+                "Yesterday Maximum 2MeV Flux",
+                "2820 pfu"
             ],
             [
                 "Potential Impacts",
-                "Area of impact primarily poleward of 55 degrees Geomagnetic Latitude."
-            ],
-            [
-                "Radio",
-                "HF (high frequency) radio propagation can fade at higher latitudes."
-            ],
-            [
-                "Aurora",
-                "Aurora may be seen as low as New York to Wisconsin to Washington state."
+                "Satellite systems may experience significant charging resulting in increased risk to satellite systems."
             ]
         ],
-        "RAWPAYLOAD": "Highest Storm Level Predicted by Day:<br>Apr 11:  None (Below G1)   Apr 12:  None (Below G1)   Apr 13:  G2 (Moderate)<br>THIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT<br>Potential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.<br>Induced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.<br>Spacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.<br>Radio - HF (high frequency) radio propagation can fade at higher latitudes.<br>Aurora - Aurora may be seen as low as New York to Wisconsin to Washington state.<br>",
-        "SN": "102",
-        "SWMC": "WATA30"
+        "RAWPAYLOAD": "Continuation of Serial Number: 2030<br>Begin Time: 2013 Jun 07 1115 UTC<br>Yesterday Maximum 2MeV Flux: 2820 pfu<br>Potential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.<br>",
+        "SN": "2031",
+        "SWMC": "ALTEF3"
     },
     {
-        "ALERTMESSAGE": "Proton 100MeV Integral Flux above 1pfu expected",
-        "ALERTTYPE": "EXTENDED WARNING",
-        "ISSUETIME": "2013 Apr 11 1403 UTC",
+        "ALERTMESSAGE": "Electron 2MeV Integral Flux exceeded 1000pfu",
+        "ALERTTYPE": "CONTINUED ALERT",
+        "ISSUETIME": "2013 Jun 08 1140 UTC",
         "PAYLOAD": [
             [
-                "Extension to Serial Number",
-                "66"
+                "Continuation of Serial Number",
+                "2029"
             ],
-            [
-                "Valid From",
-                "2013 Apr 11 0935 UTC"
-            ],
-            [
-                "Now Valid Until",
-                "2013 Apr 11 2100 UTC"
-            ],
-            [
-                "Warning Condition",
-                "Persistence"
-            ],
-            [
-                "Potential Impacts",
-                "An enhancement in the energetic portion of the solar radiation spectrum may indicate increased biological risk to astronauts or passengers and crew in high latitude, high altitude flights. Additionally, energetic particles may represent an increased risk to all satellite systems susceptible to single event effects. This information should be used in conjunction with the current Solar Radiation Storm conditions when assessing overall impact."
-            ]
-        ],
-        "RAWPAYLOAD": "Extension to Serial Number: 66<br>Valid From: 2013 Apr 11 0935 UTC<br>Now Valid Until: 2013 Apr 11 2100 UTC<br>Warning Condition: Persistence<br>Potential Impacts: An enhancement in the energetic portion of the solar radiation spectrum may indicate increased biological risk to astronauts or passengers and crew in high latitude, high altitude flights. Additionally, energetic particles may represent an increased risk to all satellite systems susceptible to single event effects. This information should be used in conjunction with the current Solar Radiation Storm conditions when assessing overall impact.<br>",
-        "SN": "67",
-        "SWMC": "WARPC0"
-    },
-    {
-        "ALERTMESSAGE": "Proton 10MeV Integral Flux above 10pfu expected",
-        "ALERTTYPE": "EXTENDED WARNING",
-        "ISSUETIME": "2013 Apr 11 1403 UTC",
-        "PAYLOAD": [
-            [
-                "Extension to Serial Number",
-                "388"
-            ],
-            [
-                "Valid From",
-                "2013 Apr 11 0915 UTC"
-            ],
-            [
-                "Now Valid Until",
-                "2013 Apr 12 0600 UTC"
-            ],
-            [
-                "Warning Condition",
-                "Persistence"
-            ],
-            [
-                "Predicted NOAA Scale",
-                "S1 - Minor"
-            ],
-            [
-                "Potential Impacts",
-                "Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies."
-            ]
-        ],
-        "RAWPAYLOAD": "Extension to Serial Number: 388<br>Valid From: 2013 Apr 11 0915 UTC<br>Now Valid Until: 2013 Apr 12 0600 UTC<br>Warning Condition: Persistence<br>Predicted NOAA Scale: S1 - Minor<br>Potential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.<br>",
-        "SN": "389",
-        "SWMC": "WARPX1"
-    },
-    {
-        "ALERTMESSAGE": "Proton Event 10MeV Integral Flux exceeded 10pfu",
-        "ALERTTYPE": "ALERT",
-        "ISSUETIME": "2013 Apr 11 1114 UTC",
-        "PAYLOAD": [
             [
                 "Begin Time",
-                "2013 Apr 11 1055 UTC"
+                "2013 Jun 07 1115 UTC"
             ],
             [
-                "NOAA Scale",
-                "S1 - Minor"
-            ],
-            [
-                "Potential Impacts",
-                "Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies."
-            ]
-        ],
-        "RAWPAYLOAD": "Begin Time: 2013 Apr 11 1055 UTC<br>NOAA Scale: S1 - Minor<br>Potential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.<br>",
-        "SN": "299",
-        "SWMC": "ALTPX1"
-    },
-    {
-        "ALERTMESSAGE": "Proton Event 100MeV Integral Flux exceeded 1pfu",
-        "ALERTTYPE": "ALERT",
-        "ISSUETIME": "2013 Apr 11 1003 UTC",
-        "PAYLOAD": [
-            [
-                "Begin Time",
-                "2013 Apr 11 0940 UTC"
+                "Yesterday Maximum 2MeV Flux",
+                "4100 pfu"
             ],
             [
                 "Potential Impacts",
-                "An enhancement in the energetic portion of the solar radiation spectrum may indicate increased biological risk to astronauts or passengers and crew in high latitude, high altitude flights. Additionally, energetic particles may represent an increased risk to all satellite systems susceptible to single event effects. This information should be used in conjunction with the current Solar Radiation Storm conditions when assessing overall impact."
+                "Satellite systems may experience significant charging resulting in increased risk to satellite systems."
             ]
         ],
-        "RAWPAYLOAD": "Begin Time: 2013 Apr 11 0940 UTC<br>Potential Impacts: An enhancement in the energetic portion of the solar radiation spectrum may indicate increased biological risk to astronauts or passengers and crew in high latitude, high altitude flights. Additionally, energetic particles may represent an increased risk to all satellite systems susceptible to single event effects. This information should be used in conjunction with the current Solar Radiation Storm conditions when assessing overall impact.<br>",
-        "SN": "38",
-        "SWMC": "ALTPC0"
-    },
-    {
-        "ALERTMESSAGE": "10cm Radio Burst",
-        "ALERTTYPE": "SUMMARY",
-        "ISSUETIME": "2013 Apr 11 0937 UTC",
-        "PAYLOAD": [
-            [
-                "Begin Time",
-                "2013 Apr 11 0658 UTC"
-            ],
-            [
-                "Maximum Time",
-                "2013 Apr 11 0702 UTC"
-            ],
-            [
-                "End Time",
-                "2013 Apr 11 0718 UTC"
-            ],
-            [
-                "Duration",
-                "20 minutes"
-            ],
-            [
-                "Peak Flux",
-                "470 sfu"
-            ],
-            [
-                "Latest Penticton Noon Flux",
-                "148 sfu"
-            ],
-            [
-                "Description",
-                "A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications."
-            ]
-        ],
-        "RAWPAYLOAD": "Begin Time: 2013 Apr 11 0658 UTC<br>Maximum Time: 2013 Apr 11 0702 UTC<br>End Time: 2013 Apr 11 0718 UTC<br>Duration: 20 minutes<br>Peak Flux: 470 sfu<br>Latest Penticton Noon Flux: 148 sfu<br>Description: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.<br>",
-        "SN": "574",
-        "SWMC": "SUM10R"
-    },
-    {
-        "ALERTMESSAGE": "Proton 100MeV Integral Flux above 1pfu expected",
-        "ALERTTYPE": "WARNING",
-        "ISSUETIME": "2013 Apr 11 0932 UTC",
-        "PAYLOAD": [
-            [
-                "Valid From",
-                "2013 Apr 11 0935 UTC"
-            ],
-            [
-                "Valid To",
-                "2013 Apr 11 1500 UTC"
-            ],
-            [
-                "Warning Condition",
-                "Onset"
-            ],
-            [
-                "Potential Impacts",
-                "An enhancement in the energetic portion of the solar radiation spectrum may indicate increased biological risk to astronauts or passengers and crew in high latitude, high altitude flights. Additionally, energetic particles may represent an increased risk to all satellite systems susceptible to single event effects. This information should be used in conjunction with the current Solar Radiation Storm conditions when assessing overall impact."
-            ]
-        ],
-        "RAWPAYLOAD": "Valid From: 2013 Apr 11 0935 UTC<br>Valid To: 2013 Apr 11 1500 UTC<br>Warning Condition: Onset<br>Potential Impacts: An enhancement in the energetic portion of the solar radiation spectrum may indicate increased biological risk to astronauts or passengers and crew in high latitude, high altitude flights. Additionally, energetic particles may represent an increased risk to all satellite systems susceptible to single event effects. This information should be used in conjunction with the current Solar Radiation Storm conditions when assessing overall impact.<br>",
-        "SN": "66",
-        "SWMC": "WARPC0"
-    },
-    {
-        "ALERTMESSAGE": "Proton 10MeV Integral Flux above 10pfu expected",
-        "ALERTTYPE": "WARNING",
-        "ISSUETIME": "2013 Apr 11 0857 UTC",
-        "PAYLOAD": [
-            [
-                "Valid From",
-                "2013 Apr 11 0915 UTC"
-            ],
-            [
-                "Valid To",
-                "2013 Apr 11 1500 UTC"
-            ],
-            [
-                "Warning Condition",
-                "Onset"
-            ],
-            [
-                "Predicted NOAA Scale",
-                "S1 - Minor"
-            ],
-            [
-                "Potential Impacts",
-                "Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies."
-            ]
-        ],
-        "RAWPAYLOAD": "Valid From: 2013 Apr 11 0915 UTC<br>Valid To: 2013 Apr 11 1500 UTC<br>Warning Condition: Onset<br>Predicted NOAA Scale: S1 - Minor<br>Potential Impacts: Radio - Minor impacts on polar HF (high frequency) radio propagation resulting in fades at lower frequencies.<br>",
-        "SN": "388",
-        "SWMC": "WARPX1"
+        "RAWPAYLOAD": "Continuation of Serial Number: 2029<br>Begin Time: 2013 Jun 07 1115 UTC<br>Yesterday Maximum 2MeV Flux: 4100 pfu<br>Potential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.<br>",
+        "SN": "2030",
+        "SWMC": "ALTEF3"
     },
     {
         "ALERTMESSAGE": "X-ray Event exceeded M5",
         "ALERTTYPE": "SUMMARY",
-        "ISSUETIME": "2013 Apr 11 0735 UTC",
+        "ISSUETIME": "2013 Jun 07 2326 UTC",
         "PAYLOAD": [
             [
                 "Begin Time",
-                "2013 Apr 11 0655 UTC"
+                "2013 Jun 07 2211 UTC"
             ],
             [
                 "Maximum Time",
-                "2013 Apr 11 0716 UTC"
+                "2013 Jun 07 2249 UTC"
             ],
             [
                 "End Time",
-                "2013 Apr 11 0729 UTC"
+                "2013 Jun 07 2304 UTC"
             ],
             [
                 "X-ray Class",
-                "M6.5"
-            ],
-            [
-                "Optical Class",
-                "2b"
+                "M5.9"
             ],
             [
                 "Location",
-                "N09E15"
+                "S28W73"
             ],
             [
                 "NOAA Scale",
@@ -449,170 +127,1566 @@
                 "Limited blackout of HF (high frequency) radio communication for tens of minutes."
             ]
         ],
-        "RAWPAYLOAD": "Begin Time: 2013 Apr 11 0655 UTC<br>Maximum Time: 2013 Apr 11 0716 UTC<br>End Time: 2013 Apr 11 0729 UTC<br>X-ray Class: M6.5<br>Optical Class: 2b<br>Location: N09E15<br>NOAA Scale: R2 - Moderate<br>Potential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.<br>Radio - Limited blackout of HF (high frequency) radio communication for tens of minutes.<br>",
-        "SN": "101",
+        "RAWPAYLOAD": "Begin Time: 2013 Jun 07 2211 UTC<br>Maximum Time: 2013 Jun 07 2249 UTC<br>End Time: 2013 Jun 07 2304 UTC<br>X-ray Class: M5.9<br>Location: S28W73<br>NOAA Scale: R2 - Moderate<br>Potential Impacts: Area of impact centered primarily on sub-solar point on the sunlit side of Earth.<br>Radio - Limited blackout of HF (high frequency) radio communication for tens of minutes.<br>",
+        "SN": "104",
         "SWMC": "SUMXM5"
     },
     {
-        "ALERTMESSAGE": "Type II Radio Emission",
-        "ALERTTYPE": "ALERT",
-        "ISSUETIME": "2013 Apr 11 0735 UTC",
+        "ALERTMESSAGE": "10cm Radio Burst",
+        "ALERTTYPE": "SUMMARY",
+        "ISSUETIME": "2013 Jun 07 2302 UTC",
         "PAYLOAD": [
             [
                 "Begin Time",
-                "2013 Apr 11 0702 UTC"
+                "2013 Jun 07 2242 UTC"
             ],
             [
-                "Estimated Velocity",
-                "1370 km/s"
+                "Maximum Time",
+                "2013 Jun 07 2243 UTC"
+            ],
+            [
+                "End Time",
+                "2013 Jun 07 2246 UTC"
+            ],
+            [
+                "Duration",
+                "4 minutes"
+            ],
+            [
+                "Peak Flux",
+                "160 sfu"
+            ],
+            [
+                "Latest Penticton Noon Flux",
+                "110 sfu"
             ],
             [
                 "Description",
-                "Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+                "A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications."
             ]
         ],
-        "RAWPAYLOAD": "Begin Time: 2013 Apr 11 0702 UTC<br>Estimated Velocity: 1370 km/s<br>Description: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.<br>",
-        "SN": "841",
-        "SWMC": "ALTTP2"
-    },
-    {
-        "ALERTMESSAGE": "Type IV Radio Emission",
-        "ALERTTYPE": "ALERT",
-        "ISSUETIME": "2013 Apr 11 0735 UTC",
-        "PAYLOAD": [
-            [
-                "Begin Time",
-                "2013 Apr 11 0702 UTC"
-            ],
-            [
-                "Description",
-                "Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms."
-            ]
-        ],
-        "RAWPAYLOAD": "Begin Time: 2013 Apr 11 0702 UTC<br>Description: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.<br>",
-        "SN": "405",
-        "SWMC": "ALTTP4"
+        "RAWPAYLOAD": "Begin Time: 2013 Jun 07 2242 UTC<br>Maximum Time: 2013 Jun 07 2243 UTC<br>End Time: 2013 Jun 07 2246 UTC<br>Duration: 4 minutes<br>Peak Flux: 160 sfu<br>Latest Penticton Noon Flux: 110 sfu<br>Description: A 10cm radio burst indicates that the electromagnetic burst associated with a solar flare at the 10cm wavelength was double or greater than the initial 10cm radio background. This can be indicative of significant radio noise in association with a solar flare. This noise is generally short-lived but can cause interference for sensitive receivers including radar, GPS, and satellite communications.<br>",
+        "SN": "584",
+        "SWMC": "SUM10R"
     },
     {
         "ALERTMESSAGE": "X-Ray Flux exceeded M5",
         "ALERTTYPE": "ALERT",
-        "ISSUETIME": "2013 Apr 11 0711 UTC",
+        "ISSUETIME": "2013 Jun 07 2251 UTC",
         "PAYLOAD": [
             [
                 "Threshold Reached",
-                "2013 Apr 11 0711 UTC"
+                "2013 Jun 07 2248 UTC"
             ],
             [
                 "NOAA Scale",
                 "R2 - Moderate"
             ]
         ],
-        "RAWPAYLOAD": "Threshold Reached: 2013 Apr 11 0711 UTC<br>NOAA Scale: R2 - Moderate<br>Potential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/drap/index.html.<br>",
-        "SN": "185",
+        "RAWPAYLOAD": "Threshold Reached: 2013 Jun 07 2248 UTC<br>NOAA Scale: R2 - Moderate<br>Potential Impacts: Area of impact centered on sub-solar point on the sunlit side of Earth. Extent of blackout of HF (high frequency) radio communication dependent upon current X-ray Flux intensity. For real-time information on affected area and expected duration please see http://www.swpc.noaa.gov/drap/index.html.<br>",
+        "SN": "192",
         "SWMC": "ALTXMF"
     },
     {
-        "ALERTMESSAGE": "Electron 2MeV Integral Flux exceeded 1000pfu",
-        "ALERTTYPE": "CONTINUED ALERT",
-        "ISSUETIME": "2013 Apr 05 1031 UTC",
+        "ALERTMESSAGE": "Geomagnetic Storm Category G1 Predicted",
+        "ALERTTYPE": "WATCH",
+        "ISSUETIME": "2013 Jun 07 2004 UTC",
         "PAYLOAD": [
             [
-                "Continuation of Serial Number",
-                "2005"
+                "Highest Storm Level Predicted by Day",
+                ""
             ],
             [
-                "Begin Time",
-                "2013 Mar 30 1335 UTC"
+                "Highest Storm Level Predicted by Day",
+                ""
             ],
             [
-                "Yesterday Maximum 2MeV Flux",
-                "1653 pfu"
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Highest Storm Level Predicted by Day:<br>Jun 08:  None (Below G1)   Jun 09:  G1 (Minor)   Jun 10:  None (Below G1)<br>THIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "528",
+        "SWMC": "WATA20"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic Storm Category G1 Predicted",
+        "ALERTTYPE": "CANCEL WATCH",
+        "ISSUETIME": "2013 Jun 07 1937 UTC",
+        "PAYLOAD": [
+            [
+                "Cancel Serial Number",
+                "526"
+            ],
+            [
+                "Original Issue Time",
+                "2013 Jun 06 1951 UTC"
+            ],
+            [
+                "</p><p>Comment",
+                "Conditions no longer warrant continued watch for 08 June.  An additional watch will be issued for 09 June."
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Cancel Serial Number: 526<br>Original Issue Time: 2013 Jun 06 1951 UTC<br></p><p>Comment: Conditions no longer warrant continued watch for 08 June.  An additional watch will be issued for 09 June.<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "527",
+        "SWMC": "WATA20"
+    },
+    {
+        "ALERTMESSAGE": "Electron 2MeV Integral Flux exceeded 1000pfu",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 07 1133 UTC",
+        "PAYLOAD": [
+            [
+                "Threshold Reached",
+                "2013 Jun 07 1115 UTC"
+            ],
+            [
+                "Station",
+                "GOES-13"
             ],
             [
                 "Potential Impacts",
                 "Satellite systems may experience significant charging resulting in increased risk to satellite systems."
             ]
         ],
-        "RAWPAYLOAD": "Continuation of Serial Number: 2005<br>Begin Time: 2013 Mar 30 1335 UTC<br>Yesterday Maximum 2MeV Flux: 1653 pfu<br>Potential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.<br>",
-        "SN": "2006",
+        "RAWPAYLOAD": "Threshold Reached: 2013 Jun 07 1115 UTC<br>Station: GOES-13<br>Potential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.<br>",
+        "SN": "2029",
+        "SWMC": "ALTEF3"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 4 expected",
+        "ALERTTYPE": "EXTENDED WARNING",
+        "ISSUETIME": "2013 Jun 07 1129 UTC",
+        "PAYLOAD": [
+            [
+                "Extension to Serial Number",
+                "2103"
+            ],
+            [
+                "Valid From",
+                "2013 Jun 06 1530 UTC"
+            ],
+            [
+                "Now Valid Until",
+                "2013 Jun 07 1800 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Persistence"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 65 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes such as Canada and Alaska."
+            ]
+        ],
+        "RAWPAYLOAD": "Extension to Serial Number: 2103<br>Valid From: 2013 Jun 06 1530 UTC<br>Now Valid Until: 2013 Jun 07 1800 UTC<br>Warning Condition: Persistence<br>Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.<br>",
+        "SN": "2104",
+        "SWMC": "WARK04"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 5 expected",
+        "ALERTTYPE": "EXTENDED WARNING",
+        "ISSUETIME": "2013 Jun 07 0543 UTC",
+        "PAYLOAD": [
+            [
+                "Extension to Serial Number",
+                "851"
+            ],
+            [
+                "Valid From",
+                "2013 Jun 07 0150 UTC"
+            ],
+            [
+                "Now Valid Until",
+                "2013 Jun 07 1200 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Persistence"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Extension to Serial Number: 851<br>Valid From: 2013 Jun 07 0150 UTC<br>Now Valid Until: 2013 Jun 07 1200 UTC<br>Warning Condition: Persistence<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "853",
+        "SWMC": "WARK05"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-Index of 6 expected",
+        "ALERTTYPE": "EXTENDED WARNING",
+        "ISSUETIME": "2013 Jun 07 0543 UTC",
+        "PAYLOAD": [
+            [
+                "Extension to Serial Number",
+                "225"
+            ],
+            [
+                "Valid From",
+                "2013 Jun 07 0350 UTC"
+            ],
+            [
+                "Now Valid Until",
+                "2013 Jun 07 0900 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Persistence"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 55 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Radio",
+                "HF (high frequency) radio propagation can fade at higher latitudes."
+            ],
+            [
+                "Aurora",
+                "Aurora may be seen as low as New York to Wisconsin to Washington state."
+            ]
+        ],
+        "RAWPAYLOAD": "Extension to Serial Number: 225<br>Valid From: 2013 Jun 07 0350 UTC<br>Now Valid Until: 2013 Jun 07 0900 UTC<br>Warning Condition: Persistence<br>Potential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.<br>Induced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.<br>Spacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.<br>Radio - HF (high frequency) radio propagation can fade at higher latitudes.<br>Aurora - Aurora may be seen as low as New York to Wisconsin to Washington state.<br>",
+        "SN": "227",
+        "SWMC": "WARK06"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 4 expected",
+        "ALERTTYPE": "EXTENDED WARNING",
+        "ISSUETIME": "2013 Jun 07 0543 UTC",
+        "PAYLOAD": [
+            [
+                "Extension to Serial Number",
+                "2101"
+            ],
+            [
+                "Valid From",
+                "2013 Jun 06 1530 UTC"
+            ],
+            [
+                "Now Valid Until",
+                "2013 Jun 07 1200 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Persistence"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 65 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes such as Canada and Alaska."
+            ]
+        ],
+        "RAWPAYLOAD": "Extension to Serial Number: 2101<br>Valid From: 2013 Jun 06 1530 UTC<br>Now Valid Until: 2013 Jun 07 1200 UTC<br>Warning Condition: Persistence<br>Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.<br>",
+        "SN": "2103",
+        "SWMC": "WARK04"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 6",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 07 0519 UTC",
+        "PAYLOAD": [
+            [
+                "Threshold Reached",
+                "2013 Jun 07 0518 UTC"
+            ],
+            [
+                "Synoptic Period",
+                "0300-0600 UTC"
+            ],
+            [
+                "Active Warning",
+                "Yes"
+            ],
+            [
+                "NOAA Scale",
+                "G2 - Moderate"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 55 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Radio",
+                "HF (high frequency) radio propagation can fade at higher latitudes."
+            ],
+            [
+                "Aurora",
+                "Aurora may be seen as low as New York to Wisconsin to Washington state."
+            ]
+        ],
+        "RAWPAYLOAD": "Threshold Reached: 2013 Jun 07 0518 UTC<br>Synoptic Period: 0300-0600 UTC<br>Active Warning: Yes<br>NOAA Scale: G2 - Moderate<br>Potential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.<br>Induced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.<br>Spacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.<br>Radio - HF (high frequency) radio propagation can fade at higher latitudes.<br>Aurora - Aurora may be seen as low as New York to Wisconsin to Washington state.<br>",
+        "SN": "309",
+        "SWMC": "ALTK06"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-Index of 6 expected",
+        "ALERTTYPE": "WARNING",
+        "ISSUETIME": "2013 Jun 07 0349 UTC",
+        "PAYLOAD": [
+            [
+                "Valid From",
+                "2013 Jun 07 0350 UTC"
+            ],
+            [
+                "Valid To",
+                "2013 Jun 07 0600 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Onset"
+            ],
+            [
+                "NOAA Scale",
+                "G2 - Moderate"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 55 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Radio",
+                "HF (high frequency) radio propagation can fade at higher latitudes."
+            ],
+            [
+                "Aurora",
+                "Aurora may be seen as low as New York to Wisconsin to Washington state."
+            ]
+        ],
+        "RAWPAYLOAD": "Valid From: 2013 Jun 07 0350 UTC<br>Valid To: 2013 Jun 07 0600 UTC<br>Warning Condition: Onset<br>NOAA Scale: G2 - Moderate<br>Potential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.<br>Induced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.<br>Spacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.<br>Radio - HF (high frequency) radio propagation can fade at higher latitudes.<br>Aurora - Aurora may be seen as low as New York to Wisconsin to Washington state.<br>",
+        "SN": "225",
+        "SWMC": "WARK06"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 5",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 07 0223 UTC",
+        "PAYLOAD": [
+            [
+                "Threshold Reached",
+                "2013 Jun 07 0221 UTC"
+            ],
+            [
+                "Synoptic Period",
+                "0000-0300 UTC"
+            ],
+            [
+                "Active Warning",
+                "Yes"
+            ],
+            [
+                "NOAA Scale",
+                "G1 - Minor"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Threshold Reached: 2013 Jun 07 0221 UTC<br>Synoptic Period: 0000-0300 UTC<br>Active Warning: Yes<br>NOAA Scale: G1 - Minor<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "720",
+        "SWMC": "ALTK05"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 5 expected",
+        "ALERTTYPE": "WARNING",
+        "ISSUETIME": "2013 Jun 07 0147 UTC",
+        "PAYLOAD": [
+            [
+                "Valid From",
+                "2013 Jun 07 0150 UTC"
+            ],
+            [
+                "Valid To",
+                "2013 Jun 07 0600 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Onset"
+            ],
+            [
+                "NOAA Scale",
+                "G1 - Minor"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Valid From: 2013 Jun 07 0150 UTC<br>Valid To: 2013 Jun 07 0600 UTC<br>Warning Condition: Onset<br>NOAA Scale: G1 - Minor<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "851",
+        "SWMC": "WARK05"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 4 expected",
+        "ALERTTYPE": "EXTENDED WARNING",
+        "ISSUETIME": "2013 Jun 06 2034 UTC",
+        "PAYLOAD": [
+            [
+                "Extension to Serial Number",
+                "2100"
+            ],
+            [
+                "Valid From",
+                "2013 Jun 06 1530 UTC"
+            ],
+            [
+                "Now Valid Until",
+                "2013 Jun 07 0600 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Persistence"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 65 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes such as Canada and Alaska."
+            ]
+        ],
+        "RAWPAYLOAD": "Extension to Serial Number: 2100<br>Valid From: 2013 Jun 06 1530 UTC<br>Now Valid Until: 2013 Jun 07 0600 UTC<br>Warning Condition: Persistence<br>Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.<br>",
+        "SN": "2101",
+        "SWMC": "WARK04"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic Storm Category G1 Predicted",
+        "ALERTTYPE": "WATCH",
+        "ISSUETIME": "2013 Jun 06 1951 UTC",
+        "PAYLOAD": [
+            [
+                "Highest Storm Level Predicted by Day",
+                ""
+            ],
+            [
+                "Highest Storm Level Predicted by Day",
+                ""
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Highest Storm Level Predicted by Day:<br>Jun 07:  G1 (Minor)   Jun 08:  G1 (Minor)   Jun 09:  None (Below G1)<br>THIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "526",
+        "SWMC": "WATA20"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 4",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 06 1545 UTC",
+        "PAYLOAD": [
+            [
+                "Threshold Reached",
+                "2013 Jun 06 1539 UTC"
+            ],
+            [
+                "Synoptic Period",
+                "1500-1800 UTC"
+            ],
+            [
+                "Active Warning",
+                "Yes"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 65 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes such as Canada and Alaska."
+            ]
+        ],
+        "RAWPAYLOAD": "Threshold Reached: 2013 Jun 06 1539 UTC<br>Synoptic Period: 1500-1800 UTC<br>Active Warning: Yes<br>Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.<br>",
+        "SN": "1644",
+        "SWMC": "ALTK04"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 4 expected",
+        "ALERTTYPE": "WARNING",
+        "ISSUETIME": "2013 Jun 06 1528 UTC",
+        "PAYLOAD": [
+            [
+                "Valid From",
+                "2013 Jun 06 1530 UTC"
+            ],
+            [
+                "Valid To",
+                "2013 Jun 06 2100 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Onset"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 65 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes such as Canada and Alaska."
+            ]
+        ],
+        "RAWPAYLOAD": "Valid From: 2013 Jun 06 1530 UTC<br>Valid To: 2013 Jun 06 2100 UTC<br>Warning Condition: Onset<br>Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.<br>",
+        "SN": "2100",
+        "SWMC": "WARK04"
+    },
+    {
+        "ALERTMESSAGE": "Electron 2MeV Integral Flux exceeded 1000pfu",
+        "ALERTTYPE": "CONTINUED ALERT",
+        "ISSUETIME": "2013 Jun 06 0507 UTC",
+        "PAYLOAD": [
+            [
+                "Continuation of Serial Number",
+                "2027"
+            ],
+            [
+                "Begin Time",
+                "2013 Jun 02 1445 UTC"
+            ],
+            [
+                "Yesterday Maximum 2MeV Flux",
+                "24427 pfu"
+            ],
+            [
+                "Potential Impacts",
+                "Satellite systems may experience significant charging resulting in increased risk to satellite systems."
+            ]
+        ],
+        "RAWPAYLOAD": "Continuation of Serial Number: 2027<br>Begin Time: 2013 Jun 02 1445 UTC<br>Yesterday Maximum 2MeV Flux: 24427 pfu<br>Potential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.<br>",
+        "SN": "2028",
+        "SWMC": "ALTEF3"
+    },
+    {
+        "ALERTMESSAGE": "Type IV Radio Emission",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 05 0939 UTC",
+        "PAYLOAD": [
+            [
+                "Begin Time",
+                "2013 Jun 05 0844 UTC"
+            ],
+            [
+                "Description",
+                "Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms."
+            ]
+        ],
+        "RAWPAYLOAD": "Begin Time: 2013 Jun 05 0844 UTC<br>Description: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.<br>",
+        "SN": "420",
+        "SWMC": "ALTTP4"
+    },
+    {
+        "ALERTMESSAGE": "Electron 2MeV Integral Flux exceeded 1000pfu",
+        "ALERTTYPE": "CONTINUED ALERT",
+        "ISSUETIME": "2013 Jun 05 0507 UTC",
+        "PAYLOAD": [
+            [
+                "Continuation of Serial Number",
+                "2026"
+            ],
+            [
+                "Begin Time",
+                "2013 Jun 02 1445 UTC"
+            ],
+            [
+                "Yesterday Maximum 2MeV Flux",
+                "31836 pfu"
+            ],
+            [
+                "Potential Impacts",
+                "Satellite systems may experience significant charging resulting in increased risk to satellite systems."
+            ]
+        ],
+        "RAWPAYLOAD": "Continuation of Serial Number: 2026<br>Begin Time: 2013 Jun 02 1445 UTC<br>Yesterday Maximum 2MeV Flux: 31836 pfu<br>Potential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.<br>",
+        "SN": "2027",
         "SWMC": "ALTEF3"
     },
     {
         "ALERTMESSAGE": "Electron 2MeV Integral Flux exceeded 1000pfu",
         "ALERTTYPE": "CONTINUED ALERT",
-        "ISSUETIME": "2013 Apr 04 0502 UTC",
+        "ISSUETIME": "2013 Jun 04 0537 UTC",
         "PAYLOAD": [
             [
                 "Continuation of Serial Number",
-                "2004"
+                "2025"
             ],
             [
                 "Begin Time",
-                "2013 Mar 30 1335 UTC"
+                "2013 Jun 02 1445 UTC"
             ],
             [
                 "Yesterday Maximum 2MeV Flux",
-                "3798 pfu"
+                "12700 pfu"
             ],
             [
                 "Potential Impacts",
                 "Satellite systems may experience significant charging resulting in increased risk to satellite systems."
             ]
         ],
-        "RAWPAYLOAD": "Continuation of Serial Number: 2004<br>Begin Time: 2013 Mar 30 1335 UTC<br>Yesterday Maximum 2MeV Flux: 3798 pfu<br>Potential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.<br>",
-        "SN": "2005",
+        "RAWPAYLOAD": "Continuation of Serial Number: 2025<br>Begin Time: 2013 Jun 02 1445 UTC<br>Yesterday Maximum 2MeV Flux: 12700 pfu<br>Potential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.<br>",
+        "SN": "2026",
         "SWMC": "ALTEF3"
     },
     {
         "ALERTMESSAGE": "Electron 2MeV Integral Flux exceeded 1000pfu",
         "ALERTTYPE": "CONTINUED ALERT",
-        "ISSUETIME": "2013 Apr 03 0500 UTC",
+        "ISSUETIME": "2013 Jun 03 0527 UTC",
         "PAYLOAD": [
             [
                 "Continuation of Serial Number",
-                "2003"
+                "2024"
             ],
             [
                 "Begin Time",
-                "2013 Mar 30 1335 UTC"
+                "2013 Jun 02 1445 UTC"
             ],
             [
                 "Yesterday Maximum 2MeV Flux",
-                "5167 pfu"
+                "4709 pfu"
             ],
             [
                 "Potential Impacts",
                 "Satellite systems may experience significant charging resulting in increased risk to satellite systems."
             ]
         ],
-        "RAWPAYLOAD": "Continuation of Serial Number: 2003<br>Begin Time: 2013 Mar 30 1335 UTC<br>Yesterday Maximum 2MeV Flux: 5167 pfu<br>Potential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.<br>",
-        "SN": "2004",
+        "RAWPAYLOAD": "Continuation of Serial Number: 2024<br>Begin Time: 2013 Jun 02 1445 UTC<br>Yesterday Maximum 2MeV Flux: 4709 pfu<br>Potential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.<br>",
+        "SN": "2025",
         "SWMC": "ALTEF3"
     },
     {
-        "ALERTMESSAGE": "Electron 2MeV Integral Flux exceeded 1000pfu",
-        "ALERTTYPE": "CONTINUED ALERT",
-        "ISSUETIME": "2013 Apr 02 0507 UTC",
+        "ALERTMESSAGE": "Type II Radio Emission",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 03 0012 UTC",
         "PAYLOAD": [
             [
-                "Continuation of Serial Number",
-                "2002"
+                "Begin Time",
+                "2013 Jun 02 2350 UTC"
             ],
+            [
+                "Estimated Velocity",
+                "534 km/s"
+            ],
+            [
+                "Description",
+                "Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+            ]
+        ],
+        "RAWPAYLOAD": "Begin Time: 2013 Jun 02 2350 UTC<br>Estimated Velocity: 534 km/s<br>Description: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.<br>",
+        "SN": "860",
+        "SWMC": "ALTTP2"
+    },
+    {
+        "ALERTMESSAGE": "Type IV Radio Emission",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 02 1631 UTC",
+        "PAYLOAD": [
             [
                 "Begin Time",
-                "2013 Mar 30 1335 UTC"
+                "2013 Jun 02 1603 UTC"
             ],
             [
-                "Yesterday Maximum 2MeV Flux",
-                "3309 pfu"
+                "Description",
+                "Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms."
+            ]
+        ],
+        "RAWPAYLOAD": "Begin Time: 2013 Jun 02 1603 UTC<br>Description: Type IV emissions occur in association with major eruptions on the sun and are typically associated with strong coronal mass ejections and solar radiation storms.<br>",
+        "SN": "419",
+        "SWMC": "ALTTP4"
+    },
+    {
+        "ALERTMESSAGE": "Type II Radio Emission",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 02 1521 UTC",
+        "PAYLOAD": [
+            [
+                "Begin Time",
+                "2013 Jun 02 1452 UTC"
+            ],
+            [
+                "Estimated Velocity",
+                "892 km/s"
+            ],
+            [
+                "</p><p>Comment",
+                "This Type II was associated with a B3/Sf flare from Region 1760 (N12E20)"
+            ],
+            [
+                "Description",
+                "Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event."
+            ]
+        ],
+        "RAWPAYLOAD": "Begin Time: 2013 Jun 02 1452 UTC<br>Estimated Velocity: 892 km/s<br></p><p>Comment: This Type II was associated with a B3/Sf flare from Region 1760 (N12E20)<br>Description: Type II emissions occur in association with eruptions on the sun and typically indicate a coronal mass ejection is associated with a flare event.<br>",
+        "SN": "859",
+        "SWMC": "ALTTP2"
+    },
+    {
+        "ALERTMESSAGE": "Electron 2MeV Integral Flux exceeded 1000pfu",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 02 1504 UTC",
+        "PAYLOAD": [
+            [
+                "Threshold Reached",
+                "2013 Jun 02 1445 UTC"
+            ],
+            [
+                "Station",
+                "GOES15"
             ],
             [
                 "Potential Impacts",
                 "Satellite systems may experience significant charging resulting in increased risk to satellite systems."
             ]
         ],
-        "RAWPAYLOAD": "Continuation of Serial Number: 2002<br>Begin Time: 2013 Mar 30 1335 UTC<br>Yesterday Maximum 2MeV Flux: 3309 pfu<br>Potential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.<br>",
-        "SN": "2003",
+        "RAWPAYLOAD": "Threshold Reached: 2013 Jun 02 1445 UTC<br>Station: GOES15<br>Potential Impacts: Satellite systems may experience significant charging resulting in increased risk to satellite systems.<br>",
+        "SN": "2024",
         "SWMC": "ALTEF3"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic Storm Category G1 Predicted",
+        "ALERTTYPE": "CANCEL WATCH",
+        "ISSUETIME": "2013 Jun 02 1503 UTC",
+        "PAYLOAD": [
+            [
+                "Cancel Serial Number",
+                "524"
+            ],
+            [
+                "Original Issue Time",
+                "2013 Jun 01 2002 UTC"
+            ],
+            [
+                "</p><p>Comment",
+                "Conditions conducive for G1 (Minor) geomagnetic storm conditions no longer exist."
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Cancel Serial Number: 524<br>Original Issue Time: 2013 Jun 01 2002 UTC<br></p><p>Comment: Conditions conducive for G1 (Minor) geomagnetic storm conditions no longer exist.<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "525",
+        "SWMC": "WATA20"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 4 expected",
+        "ALERTTYPE": "EXTENDED WARNING",
+        "ISSUETIME": "2013 Jun 02 0655 UTC",
+        "PAYLOAD": [
+            [
+                "Extension to Serial Number",
+                "2098"
+            ],
+            [
+                "Valid From",
+                "2013 May 31 2319 UTC"
+            ],
+            [
+                "Now Valid Until",
+                "2013 Jun 02 1500 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Persistence"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 65 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes such as Canada and Alaska."
+            ]
+        ],
+        "RAWPAYLOAD": "Extension to Serial Number: 2098<br>Valid From: 2013 May 31 2319 UTC<br>Now Valid Until: 2013 Jun 02 1500 UTC<br>Warning Condition: Persistence<br>Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.<br>",
+        "SN": "2099",
+        "SWMC": "WARK04"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 5",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 02 0148 UTC",
+        "PAYLOAD": [
+            [
+                "Threshold Reached",
+                "2013 Jun 02 0146 UTC"
+            ],
+            [
+                "Synoptic Period",
+                "0000-0300 UTC"
+            ],
+            [
+                "Active Warning",
+                "Yes"
+            ],
+            [
+                "NOAA Scale",
+                "G1 - Minor"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Threshold Reached: 2013 Jun 02 0146 UTC<br>Synoptic Period: 0000-0300 UTC<br>Active Warning: Yes<br>NOAA Scale: G1 - Minor<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "719",
+        "SWMC": "ALTK05"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 5 expected",
+        "ALERTTYPE": "WARNING",
+        "ISSUETIME": "2013 Jun 02 0138 UTC",
+        "PAYLOAD": [
+            [
+                "Valid From",
+                "2013 Jun 02 0137 UTC"
+            ],
+            [
+                "Valid To",
+                "2013 Jun 02 0600 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Onset"
+            ],
+            [
+                "NOAA Scale",
+                "G1 - Minor"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Valid From: 2013 Jun 02 0137 UTC<br>Valid To: 2013 Jun 02 0600 UTC<br>Warning Condition: Onset<br>NOAA Scale: G1 - Minor<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "850",
+        "SWMC": "WARK05"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic Storm Category G1 Predicted",
+        "ALERTTYPE": "WATCH",
+        "ISSUETIME": "2013 Jun 01 2002 UTC",
+        "PAYLOAD": [
+            [
+                "Highest Storm Level Predicted by Day",
+                ""
+            ],
+            [
+                "Highest Storm Level Predicted by Day",
+                ""
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Highest Storm Level Predicted by Day:<br>Jun 02:  G1 (Minor)   Jun 03:  None (Below G1)   Jun 04:  None (Below G1)<br>THIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "524",
+        "SWMC": "WATA20"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 6",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 01 1502 UTC",
+        "PAYLOAD": [
+            [
+                "Threshold Reached",
+                "2013 Jun 01 1500 UTC"
+            ],
+            [
+                "Synoptic Period",
+                "1500-1800 UTC"
+            ],
+            [
+                "Active Warning",
+                "Yes"
+            ],
+            [
+                "NOAA Scale",
+                "G2 - Moderate"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 55 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Radio",
+                "HF (high frequency) radio propagation can fade at higher latitudes."
+            ],
+            [
+                "Aurora",
+                "Aurora may be seen as low as New York to Wisconsin to Washington state."
+            ]
+        ],
+        "RAWPAYLOAD": "Threshold Reached: 2013 Jun 01 1500 UTC<br>Synoptic Period: 1500-1800 UTC<br>Active Warning: Yes<br>NOAA Scale: G2 - Moderate<br>Potential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.<br>Induced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.<br>Spacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.<br>Radio - HF (high frequency) radio propagation can fade at higher latitudes.<br>Aurora - Aurora may be seen as low as New York to Wisconsin to Washington state.<br>",
+        "SN": "308",
+        "SWMC": "ALTK06"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 5 expected",
+        "ALERTTYPE": "EXTENDED WARNING",
+        "ISSUETIME": "2013 Jun 01 1430 UTC",
+        "PAYLOAD": [
+            [
+                "Extension to Serial Number",
+                "848"
+            ],
+            [
+                "Valid From",
+                "2013 Jun 01 0040 UTC"
+            ],
+            [
+                "Now Valid Until",
+                "2013 Jun 01 2300 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Persistence"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Extension to Serial Number: 848<br>Valid From: 2013 Jun 01 0040 UTC<br>Now Valid Until: 2013 Jun 01 2300 UTC<br>Warning Condition: Persistence<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "849",
+        "SWMC": "WARK05"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 4 expected",
+        "ALERTTYPE": "EXTENDED WARNING",
+        "ISSUETIME": "2013 Jun 01 1430 UTC",
+        "PAYLOAD": [
+            [
+                "Extension to Serial Number",
+                "2097"
+            ],
+            [
+                "Valid From",
+                "2013 May 31 2319 UTC"
+            ],
+            [
+                "Now Valid Until",
+                "2013 Jun 02 0700 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Persistence"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 65 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes such as Canada and Alaska."
+            ]
+        ],
+        "RAWPAYLOAD": "Extension to Serial Number: 2097<br>Valid From: 2013 May 31 2319 UTC<br>Now Valid Until: 2013 Jun 02 0700 UTC<br>Warning Condition: Persistence<br>Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.<br>",
+        "SN": "2098",
+        "SWMC": "WARK04"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-Index of 6 expected",
+        "ALERTTYPE": "WARNING",
+        "ISSUETIME": "2013 Jun 01 1422 UTC",
+        "PAYLOAD": [
+            [
+                "Valid From",
+                "2013 Jun 01 1421 UTC"
+            ],
+            [
+                "Valid To",
+                "2013 Jun 01 1900 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Onset"
+            ],
+            [
+                "NOAA Scale",
+                "G2 - Moderate"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 55 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Radio",
+                "HF (high frequency) radio propagation can fade at higher latitudes."
+            ],
+            [
+                "Aurora",
+                "Aurora may be seen as low as New York to Wisconsin to Washington state."
+            ]
+        ],
+        "RAWPAYLOAD": "Valid From: 2013 Jun 01 1421 UTC<br>Valid To: 2013 Jun 01 1900 UTC<br>Warning Condition: Onset<br>NOAA Scale: G2 - Moderate<br>Potential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.<br>Induced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.<br>Spacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.<br>Radio - HF (high frequency) radio propagation can fade at higher latitudes.<br>Aurora - Aurora may be seen as low as New York to Wisconsin to Washington state.<br>",
+        "SN": "224",
+        "SWMC": "WARK06"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 6",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 01 0904 UTC",
+        "PAYLOAD": [
+            [
+                "Threshold Reached",
+                "2013 Jun 01 0900 UTC"
+            ],
+            [
+                "Synoptic Period",
+                "0900-1200 UTC"
+            ],
+            [
+                "Active Warning",
+                "Yes"
+            ],
+            [
+                "NOAA Scale",
+                "G2 - Moderate"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 55 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Radio",
+                "HF (high frequency) radio propagation can fade at higher latitudes."
+            ],
+            [
+                "Aurora",
+                "Aurora may be seen as low as New York to Wisconsin to Washington state."
+            ]
+        ],
+        "RAWPAYLOAD": "Threshold Reached: 2013 Jun 01 0900 UTC<br>Synoptic Period: 0900-1200 UTC<br>Active Warning: Yes<br>NOAA Scale: G2 - Moderate<br>Potential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.<br>Induced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.<br>Spacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.<br>Radio - HF (high frequency) radio propagation can fade at higher latitudes.<br>Aurora - Aurora may be seen as low as New York to Wisconsin to Washington state.<br>",
+        "SN": "307",
+        "SWMC": "ALTK06"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 5 expected",
+        "ALERTTYPE": "EXTENDED WARNING",
+        "ISSUETIME": "2013 Jun 01 0904 UTC",
+        "PAYLOAD": [
+            [
+                "Extension to Serial Number",
+                "847"
+            ],
+            [
+                "Valid From",
+                "2013 Jun 01 0040 UTC"
+            ],
+            [
+                "Now Valid Until",
+                "2013 Jun 01 1600 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Persistence"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Extension to Serial Number: 847<br>Valid From: 2013 Jun 01 0040 UTC<br>Now Valid Until: 2013 Jun 01 1600 UTC<br>Warning Condition: Persistence<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "848",
+        "SWMC": "WARK05"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 6",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 01 0506 UTC",
+        "PAYLOAD": [
+            [
+                "Threshold Reached",
+                "2013 Jun 01 0502 UTC"
+            ],
+            [
+                "Synoptic Period",
+                "0300-0600 UTC"
+            ],
+            [
+                "Active Warning",
+                "Yes"
+            ],
+            [
+                "NOAA Scale",
+                "G2 - Moderate"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 55 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Radio",
+                "HF (high frequency) radio propagation can fade at higher latitudes."
+            ],
+            [
+                "Aurora",
+                "Aurora may be seen as low as New York to Wisconsin to Washington state."
+            ]
+        ],
+        "RAWPAYLOAD": "Threshold Reached: 2013 Jun 01 0502 UTC<br>Synoptic Period: 0300-0600 UTC<br>Active Warning: Yes<br>NOAA Scale: G2 - Moderate<br>Potential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.<br>Induced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.<br>Spacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.<br>Radio - HF (high frequency) radio propagation can fade at higher latitudes.<br>Aurora - Aurora may be seen as low as New York to Wisconsin to Washington state.<br>",
+        "SN": "306",
+        "SWMC": "ALTK06"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-Index of 6 expected",
+        "ALERTTYPE": "EXTENDED WARNING",
+        "ISSUETIME": "2013 Jun 01 0506 UTC",
+        "PAYLOAD": [
+            [
+                "Extension to Serial Number",
+                "222"
+            ],
+            [
+                "Valid From",
+                "2013 Jun 01 0055 UTC"
+            ],
+            [
+                "Now Valid Until",
+                "2013 Jun 01 0900 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Persistence"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 55 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Radio",
+                "HF (high frequency) radio propagation can fade at higher latitudes."
+            ],
+            [
+                "Aurora",
+                "Aurora may be seen as low as New York to Wisconsin to Washington state."
+            ]
+        ],
+        "RAWPAYLOAD": "Extension to Serial Number: 222<br>Valid From: 2013 Jun 01 0055 UTC<br>Now Valid Until: 2013 Jun 01 0900 UTC<br>Warning Condition: Persistence<br>Potential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.<br>Induced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.<br>Spacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.<br>Radio - HF (high frequency) radio propagation can fade at higher latitudes.<br>Aurora - Aurora may be seen as low as New York to Wisconsin to Washington state.<br>",
+        "SN": "223",
+        "SWMC": "WARK06"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 4 expected",
+        "ALERTTYPE": "EXTENDED WARNING",
+        "ISSUETIME": "2013 Jun 01 0506 UTC",
+        "PAYLOAD": [
+            [
+                "Extension to Serial Number",
+                "2096"
+            ],
+            [
+                "Valid From",
+                "2013 May 31 2319 UTC"
+            ],
+            [
+                "Now Valid Until",
+                "2013 Jun 01 1800 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Persistence"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 65 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes such as Canada and Alaska."
+            ]
+        ],
+        "RAWPAYLOAD": "Extension to Serial Number: 2096<br>Valid From: 2013 May 31 2319 UTC<br>Now Valid Until: 2013 Jun 01 1800 UTC<br>Warning Condition: Persistence<br>Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.<br>",
+        "SN": "2097",
+        "SWMC": "WARK04"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 5 expected",
+        "ALERTTYPE": "EXTENDED WARNING",
+        "ISSUETIME": "2013 Jun 01 0506 UTC",
+        "PAYLOAD": [
+            [
+                "Extension to Serial Number",
+                "846"
+            ],
+            [
+                "Valid From",
+                "2013 Jun 01 0040 UTC"
+            ],
+            [
+                "Now Valid Until",
+                "2013 Jun 01 1200 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Persistence"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Extension to Serial Number: 846<br>Valid From: 2013 Jun 01 0040 UTC<br>Now Valid Until: 2013 Jun 01 1200 UTC<br>Warning Condition: Persistence<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "847",
+        "SWMC": "WARK05"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 6",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 01 0259 UTC",
+        "PAYLOAD": [
+            [
+                "Threshold Reached",
+                "2013 Jun 01 0258 UTC"
+            ],
+            [
+                "Synoptic Period",
+                "0000-0300 UTC"
+            ],
+            [
+                "Active Warning",
+                "Yes"
+            ],
+            [
+                "NOAA Scale",
+                "G2 - Moderate"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 55 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Radio",
+                "HF (high frequency) radio propagation can fade at higher latitudes."
+            ],
+            [
+                "Aurora",
+                "Aurora may be seen as low as New York to Wisconsin to Washington state."
+            ]
+        ],
+        "RAWPAYLOAD": "Threshold Reached: 2013 Jun 01 0258 UTC<br>Synoptic Period: 0000-0300 UTC<br>Active Warning: Yes<br>NOAA Scale: G2 - Moderate<br>Potential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.<br>Induced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.<br>Spacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.<br>Radio - HF (high frequency) radio propagation can fade at higher latitudes.<br>Aurora - Aurora may be seen as low as New York to Wisconsin to Washington state.<br>",
+        "SN": "305",
+        "SWMC": "ALTK06"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-Index of 6 expected",
+        "ALERTTYPE": "WARNING",
+        "ISSUETIME": "2013 Jun 01 0053 UTC",
+        "PAYLOAD": [
+            [
+                "Valid From",
+                "2013 Jun 01 0055 UTC"
+            ],
+            [
+                "Valid To",
+                "2013 Jun 01 0600 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Onset"
+            ],
+            [
+                "NOAA Scale",
+                "G2 - Moderate"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 55 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Radio",
+                "HF (high frequency) radio propagation can fade at higher latitudes."
+            ],
+            [
+                "Aurora",
+                "Aurora may be seen as low as New York to Wisconsin to Washington state."
+            ]
+        ],
+        "RAWPAYLOAD": "Valid From: 2013 Jun 01 0055 UTC<br>Valid To: 2013 Jun 01 0600 UTC<br>Warning Condition: Onset<br>NOAA Scale: G2 - Moderate<br>Potential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.<br>Induced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.<br>Spacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.<br>Radio - HF (high frequency) radio propagation can fade at higher latitudes.<br>Aurora - Aurora may be seen as low as New York to Wisconsin to Washington state.<br>",
+        "SN": "222",
+        "SWMC": "WARK06"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 5",
+        "ALERTTYPE": "ALERT",
+        "ISSUETIME": "2013 Jun 01 0052 UTC",
+        "PAYLOAD": [
+            [
+                "Threshold Reached",
+                "2013 Jun 01 0051 UTC"
+            ],
+            [
+                "Synoptic Period",
+                "0000-0300 UTC"
+            ],
+            [
+                "Active Warning",
+                "Yes"
+            ],
+            [
+                "NOAA Scale",
+                "G1 - Minor"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 60 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Spacecraft",
+                "Minor impact on satellite operations possible."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+            ]
+        ],
+        "RAWPAYLOAD": "Threshold Reached: 2013 Jun 01 0051 UTC<br>Synoptic Period: 0000-0300 UTC<br>Active Warning: Yes<br>NOAA Scale: G1 - Minor<br>Potential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Spacecraft - Minor impact on satellite operations possible.<br>Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.<br>",
+        "SN": "718",
+        "SWMC": "ALTK05"
+    },
+    {
+        "ALERTMESSAGE": "Geomagnetic K-index of 4 expected",
+        "ALERTTYPE": "EXTENDED WARNING",
+        "ISSUETIME": "2013 Jun 01 0041 UTC",
+        "PAYLOAD": [
+            [
+                "Extension to Serial Number",
+                "2095"
+            ],
+            [
+                "Valid From",
+                "2013 May 31 2319 UTC"
+            ],
+            [
+                "Now Valid Until",
+                "2013 Jun 01 0900 UTC"
+            ],
+            [
+                "Warning Condition",
+                "Onset"
+            ],
+            [
+                "Potential Impacts",
+                "Area of impact primarily poleward of 65 degrees Geomagnetic Latitude."
+            ],
+            [
+                "Induced Currents",
+                "Weak power grid fluctuations can occur."
+            ],
+            [
+                "Aurora",
+                "Aurora may be visible at high latitudes such as Canada and Alaska."
+            ]
+        ],
+        "RAWPAYLOAD": "Extension to Serial Number: 2095<br>Valid From: 2013 May 31 2319 UTC<br>Now Valid Until: 2013 Jun 01 0900 UTC<br>Warning Condition: Onset<br>Potential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.<br>Induced Currents - Weak power grid fluctuations can occur.<br>Aurora - Aurora may be visible at high latitudes such as Canada and Alaska.<br>",
+        "SN": "2096",
+        "SWMC": "WARK04"
     }
 ]

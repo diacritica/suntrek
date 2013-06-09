@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import json
 import requests
+import re
 
 def run():
 
@@ -18,7 +19,15 @@ def run():
     fBpos = f.index('B. NOAA Solar Radiation Activity Observation and Forecast')
     fCpos = f.index('C. NOAA Radio Blackout Activity and Forecast')
     
-    hours=[line.split() for line in f[fApos+10:fApos+18]]
+    cleanlines = []
+
+    for line in f[fApos+10:fApos+18]:
+        cleanlines.append(re.sub(r'\(.*\)','',line))
+
+    hours=[line.split() for line in cleanlines]
+
+    print(hours)
+    
     hoursday1 = [(data[0],data[1]) for data in hours]
     hoursday2 = [(data[0],data[2]) for data in hours]
     hoursday3 = [(data[0],data[3]) for data in hours]
@@ -36,11 +45,24 @@ def run():
 
     endhoursB = f.index("",fBpos+8)
     
-    hoursB = [line.split("   ") for line in f[fBpos+8:endhoursB]]
+    hoursB = []
+    for line in f[fBpos+8:endhoursB]:
+        cleanline = line.split("   ")
+        cleanline2 = [cleanline[0]] + [token for token in cleanline[1:] if token != ""] #I hate NOAA syntax
+        hoursB.append(cleanline2)
+
+#    hoursB = [line.split("   ") for line in f[fBpos+8:endhoursB]]
+
+    print(hoursB)
+
     hoursBday1 = [(data[0],data[1][:-1]) for data in hoursB]
     hoursBday2 = [(data[0],data[2][:-1]) for data in hoursB]
     hoursBday3 = [(data[0],data[3][:-1]) for data in hoursB]
 
+    print("...............")
+    print(hoursBday1)
+    print(hoursBday2)
+    print(hoursBday3)
 
     radiation = {"title": f[fBpos][3:],
                  "day1":{"title":"".join(f[fBpos+7].split()[0:2]),

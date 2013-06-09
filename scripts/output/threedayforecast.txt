@@ -1,51 +1,52 @@
 :Product: 3-Day Forecast
-:Issued: 2013 Apr 12 1230 UTC
+:Issued: 2013 Jun 09 1230 UTC
 # Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
 #
 A. NOAA Geomagnetic Activity Observation and Forecast
 
 The greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA
 Scale levels).
-The greatest expected 3 hr Kp for Apr 12-Apr 14 2013 is 6 (NOAA Scale
-G2).
+The greatest expected 3 hr Kp for Jun 09-Jun 11 2013 is 4 (below NOAA
+Scale levels).
 
-NOAA Kp index breakdown Apr 12-Apr 14 2013
+NOAA Kp index breakdown Jun 09-Jun 11 2013
 
-            Apr 12     Apr 13     Apr 14
-00-03UT        2          2          6 (G2)
-03-06UT        2          3          6 (G2)
-06-09UT        1          3          6 (G2)
-09-12UT        1          2          5 (G1)
-12-15UT        1          2          4     
-15-18UT        1          4          3     
-18-21UT        1          5 (G1)     3     
-21-00UT        1          6 (G2)     3     
+            Jun 09     Jun 10     Jun 11
+00-03UT        1          4          1     
+03-06UT        2          3          1     
+06-09UT        2          2          1     
+09-12UT        2          2          2     
+12-15UT        2          2          2     
+15-18UT        3          2          1     
+18-21UT        3          1          2     
+21-00UT        4          2          1     
 
-Rationale: G1 (minor) to G2 (moderate) geomagnetic storms are expected
-on days 2 and 3 (13-14 Apr) in response to a CME from 11 Apr.
+Rationale: No G1 (Minor) or greater geomagnetic storms are expected.  No
+significant transient or recurrent solar wind features are forecast.
 
 B. NOAA Solar Radiation Activity Observation and Forecast
 
 Solar radiation, as observed by NOAA GOES-13 over the past 24 hours, was
-above S-scale storm level thresholds.
+below S-scale storm level thresholds.
 
-Solar Radiation Storm Forecast for Apr 12-Apr 14 2013
+Solar Radiation Storm Forecast for Jun 09-Jun 11 2013
 
-              Apr 12  Apr 13  Apr 14
-S1 or greater   99%     30%     10%
+              Jun 09  Jun 10  Jun 11
+S1 or greater    5%      1%      1%
 
-Rationale: An S1 (Minor) solar radiation storms is expected on day 1 (12
-Apr).  There is a chance for an S1 event on day 2 (13 Apr).
+Rationale: No S1 (Minor) or greater solar radiation storms are expected.
+No significant active region activity favorable for radiation storm
+production is forecast.
 
 C. NOAA Radio Blackout Activity and Forecast
 
 No radio blackouts were observed over the past 24 hours.
 
-Radio Blackout Forecast for Apr 12-Apr 14 2013
+Radio Blackout Forecast for Jun 09-Jun 11 2013
 
-              Apr 12        Apr 13        Apr 14
-R1-R2           50%           50%           50%
-R3 or greater   15%           15%           15%
+              Jun 09        Jun 10        Jun 11
+R1-R2           10%           10%           10%
+R3 or greater    1%            1%            1%
 
-Rationale: There is a chance for an R1-R2 radio blackout all three days
-(12-14 Apr) of the forecast period.
+Rationale: There is a slight chance for an R1 (Minor) or greater radio
+blackout, primarily from Region 1765.
